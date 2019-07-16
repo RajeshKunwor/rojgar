@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'mptt',
     'rojgarapp',
+    'user',
     'job'
+
 
 ]
 
@@ -86,8 +88,13 @@ WSGI_APPLICATION = 'rojgar.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'rojgar_db',
+        'USER': 'rojgar',
+        'PASSWORD':'rojgar',
+        'HOST':'localhost',
+        'PORT': 5432
     }
 }
 
