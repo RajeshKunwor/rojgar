@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import *
+from rojgar.job.api.views import *
 
 urlpatterns = [
     path('api/create_job', CreateJobAPIView.as_view(), name='create_job'),
