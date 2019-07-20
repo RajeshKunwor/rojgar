@@ -1,0 +1,38 @@
+{% extends 'dashboard.html' %}
+<title>{% block title %}Admin Dashboard{% endblock %}</title>
+
+
+{% block sidebar %}
+            <div class="sidebar-header mt-0">
+                <h5>Admin DashBoard</h5>
+                <strong>DB</strong>
+                <hr>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li>
+                    <a href="{% url 'dashboard:admin_dashboard' %}">
+                        <i class="fas fa-tachometer-alt"></i> Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#jobSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-user-md"></i>
+                        Job
+                    </a>
+                    <ul class="collapse list-unstyled" id="jobSubmenu">
+                        <li>
+                            <a href="{% url 'job:manage_job' %}">Job</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'job:manage_category' %}">Category</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+{% endblock %}
+
+

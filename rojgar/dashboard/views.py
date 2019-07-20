@@ -2,8 +2,9 @@ from django.shortcuts import render
 from django.views import View
 # Create your views here.
 
-class DashBoard(View):
+class DashBoardView(View):
 
     def get(self, request):
-        return render(request, 'rojgarapp/admin_dashboard.html')
+        return render(request, 'dashboard/admin_dashboard.html')
+
 

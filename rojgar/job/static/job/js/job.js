@@ -1,28 +1,31 @@
-function Category(){
+function Job(category, title, image, desc){
     var self = this;
-    self.category = ko.observable();
-
-    self.saveCategory = function(){
-
-    }
-
-    self.updateCategory = function(){}
+    self.category = ko.observable(category)
+    self.title = title;
+    self.image = image;
+    self.desc = desc;
 
 }
 
-function Job(){
+function JobViewModel(){
     var self = this;
-    self.jobTitle = ko.observable();
+    self.title = ko.observable();
+    self.image = ko.observable();
+    self.desc = ko.observable();
     self.jobList = ko.observableArray();
 
     self.addJob = function(){
-        self.jobList.append(self.jobTitle)
+        self.jobList.push(new Job("", self.title(), self.image(),self.desc()));
+    }
+
+    self.removeJob = function(job){
+        self.jobList.remove(job)
     }
     self.saveJob = function(){
     }
 
     self.updateJob = function(){}
-}
 
-ko.applyBindings(new Category());
-ko.applyBindings(new Job());
+  }
+
+ko.applyBindings(new JobViewModel());

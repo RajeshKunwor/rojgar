@@ -1,0 +1,37 @@
+{% extends 'dashboard/admin_dashboard.html' %}
+<title>{% block title %} Manage-Job {% endblock %}</title>
+{% block breadcrum %}
+<a href="{% url 'dashboard:admin_dashboard' %}">{{ block.super }}</a> / <a href="#">Manage Category</a>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+        <!-- Button to Open job category form -->
+      <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#createCategory">
+        <i class="fas fa-plus-circle"></i> Create Category
+      </button>
+    </div>
+    <div class="col-md-8">
+       <h5>Category List</h5>
+    </div>
+  </div>
+  <hr>
+   <table class="table table-striped p-3">
+    <thead>
+      <tr>
+        <th>S.N.</th>
+        <th>Category</th>
+        <th>Job</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
+
+<!--include create job-->
+{% include 'job/category_form.html' %}
+{% endblock %}
