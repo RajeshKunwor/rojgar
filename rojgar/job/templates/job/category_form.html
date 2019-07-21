@@ -12,7 +12,7 @@
 
         <!-- Modal body -->
         <div class="modal-body">
-          <form>
+          <form method="post" data-bind="submit: saveCategory">
               <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -24,9 +24,15 @@
                   <tbody>
                 <!-- ko foreach: categoryList -->
                     <tr>
-                       <td><select></select></td>
-                        <td><input type="text" class="form-control"/></td>
-                        <td><button class="btn btn-sm" data-bind="click: $root.removeCategory"><i class="fas fa-trash-alt text-danger"></i></button></td>
+                       <td>
+                           <select data-bind="options: $root.oldCategoryList,
+                                           optionsText: 'name',
+                                           optionsValue: 'id',
+                                           value: parent,
+                                           optionsCaption: 'Choose Category...'"></select>
+                                           </td>
+                        <td><input type="text" data-bind="value: name" class="form-control"/></td>
+                        <td><button class="btn btn-sm" type="submit"><i class="fas fa-trash-alt text-danger"></i></button></td>
                     </tr>
                    <!-- /ko -->
                   </tbody>
@@ -37,7 +43,7 @@
 
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button class="btn btn-success btn-sm"><i class="fas fa-save"></i> Save</button>
+          <button class="btn btn-success btn-sm" data-bind="click: saveCategory"><i class="fas fa-save"></i> Save</button>
           <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i class="fas fa-times-circle"></i> Close</button>
         </div>
 
@@ -45,5 +51,7 @@
     </div>
   </div>
 
-<script src="{% static 'js/knockout.js' %}"></script>
+ <!--<script src="{% static 'js/jquery.js' %}"></script>-->
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="{% static 'js/knockout.js' %}"></script>
  <script src="{% static 'job/js/category.js' %}"></script>

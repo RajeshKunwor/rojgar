@@ -1,0 +1,53 @@
+{% load static %}
+ <!-- The Modal -->
+  <div class="modal fade" id="createJob">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="fas fa-plus-circle"></i> Create Job</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+              <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Job Title</th>
+                        <th>Photo</th>
+                        <th>Description</th>
+                        <th width="10%">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                <!-- ko foreach: jobList -->
+                    <tr>
+                       <td><select></select></td>
+                        <td><input type="text" class="form-control"/></td>
+                        <td><input type="file" class="form-control-file border"/></td>
+                        <td><textarea></textarea></td>
+                        <td><button class="btn btn-sm" data-bind="click: $root.removeJob"><i class="fas fa-trash-alt text-danger"></i></button></td>
+                    </tr>
+                   <!-- /ko -->
+                  </tbody>
+              </table>
+              <button class="btn btn-secondary btn-sm" data-bind="click: addJob"><i class="fas fa-plus-circle"></i> Add new job</button>
+            </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button class="btn btn-success btn-sm"><i class="fas fa-save"></i> Save</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i class="fas fa-times-circle"></i> Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<script src="{% static 'js/knockout.js' %}"></script>
+ <script src="{% static 'job/js/job.js' %}"></script>

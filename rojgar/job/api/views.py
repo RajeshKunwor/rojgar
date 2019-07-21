@@ -3,14 +3,13 @@ from rest_framework.generics import ListAPIView
 from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework import status
-from rojgar.job.models import *
-from rojgar.job.serializers import *
+from ..serializer.serializers import *
 
 class CreateJobCategoryAPIView(APIView):
 
     def post(self, request):
         data = request.data
-        serializer = JobCategorySerializer(data = data)
+        serializer = JobCategorySerializer(data = data, many=True)
         if serializer.is_valid():
             serializer.save()
             return Response({"response": "Successfully Saved."})
