@@ -126,6 +126,7 @@ span {
     padding: 8px;
     font-size: 1em;
     display: block;
+    border-bottom: 2px solid #ddd;
 }
 
 #sidebar ul li a:hover {
@@ -145,6 +146,9 @@ a[aria-expanded="true"] {
 
 a[data-toggle="collapse"] {
     position: relative;
+}
+.dropdown-toggle {
+    padding 18px 0;
 }
 
 .dropdown-toggle::after {
