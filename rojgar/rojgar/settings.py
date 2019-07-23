@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'mptt',
     'dashboard',
     'user',
-    'job'
+    'job',
+    'address',
 
 
 ]

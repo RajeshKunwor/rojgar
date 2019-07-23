@@ -1,0 +1,8630 @@
+[
+  {
+    "model": "address.Country",
+    "pk": 1,
+    "fields": {
+      "name": "Nepal",
+      "code": "NP"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 2,
+    "fields": {
+      "name": "Afghanistan",
+      "code": "AF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 3,
+    "fields": {
+      "name": "Åland Islands",
+      "code": "AX"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 4,
+    "fields": {
+      "name": "Albania",
+      "code": "AL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 5,
+    "fields": {
+      "name": "Algeria",
+      "code": "DZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 6,
+    "fields": {
+      "name": "American Samoa",
+      "code": "AS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 7,
+    "fields": {
+      "name": "AndorrA",
+      "code": "AD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 8,
+    "fields": {
+      "name": "Angola",
+      "code": "AO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 9,
+    "fields": {
+      "name": "Anguilla",
+      "code": "AI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 10,
+    "fields": {
+      "name": "Antarctica",
+      "code": "AQ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 11,
+    "fields": {
+      "name": "Antigua and Barbuda",
+      "code": "AG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 12,
+    "fields": {
+      "name": "Argentina",
+      "code": "AR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 13,
+    "fields": {
+      "name": "Armenia",
+      "code": "AM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 14,
+    "fields": {
+      "name": "Aruba",
+      "code": "AW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 15,
+    "fields": {
+      "name": "Australia",
+      "code": "AU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 16,
+    "fields": {
+      "name": "Austria",
+      "code": "AT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 17,
+    "fields": {
+      "name": "Azerbaijan",
+      "code": "AZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 18,
+    "fields": {
+      "name": "Bahamas",
+      "code": "BS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 19,
+    "fields": {
+      "name": "Bahrain",
+      "code": "BH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 20,
+    "fields": {
+      "name": "Bangladesh",
+      "code": "BD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 21,
+    "fields": {
+      "name": "Barbados",
+      "code": "BB"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 22,
+    "fields": {
+      "name": "Belarus",
+      "code": "BY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 23,
+    "fields": {
+      "name": "Belgium",
+      "code": "BE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 24,
+    "fields": {
+      "name": "Belize",
+      "code": "BZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 25,
+    "fields": {
+      "name": "Benin",
+      "code": "BJ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 26,
+    "fields": {
+      "name": "Bermuda",
+      "code": "BM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 27,
+    "fields": {
+      "name": "Bhutan",
+      "code": "BT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 28,
+    "fields": {
+      "name": "Bolivia",
+      "code": "BO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 29,
+    "fields": {
+      "name": "Bosnia and Herzegovina",
+      "code": "BA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 30,
+    "fields": {
+      "name": "Botswana",
+      "code": "BW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 31,
+    "fields": {
+      "name": "Bouvet Island",
+      "code": "BV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 32,
+    "fields": {
+      "name": "Brazil",
+      "code": "BR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 33,
+    "fields": {
+      "name": "British Indian Ocean Territory",
+      "code": "IO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 34,
+    "fields": {
+      "name": "Brunei Darussalam",
+      "code": "BN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 35,
+    "fields": {
+      "name": "Bulgaria",
+      "code": "BG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 36,
+    "fields": {
+      "name": "Burkina Faso",
+      "code": "BF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 37,
+    "fields": {
+      "name": "Burundi",
+      "code": "BI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 38,
+    "fields": {
+      "name": "Cambodia",
+      "code": "KH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 39,
+    "fields": {
+      "name": "Cameroon",
+      "code": "CM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 40,
+    "fields": {
+      "name": "Canada",
+      "code": "CA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 41,
+    "fields": {
+      "name": "Cape Verde",
+      "code": "CV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 42,
+    "fields": {
+      "name": "Cayman Islands",
+      "code": "KY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 43,
+    "fields": {
+      "name": "Central African Republic",
+      "code": "CF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 44,
+    "fields": {
+      "name": "Chad",
+      "code": "TD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 45,
+    "fields": {
+      "name": "Chile",
+      "code": "CL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 46,
+    "fields": {
+      "name": "China",
+      "code": "CN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 47,
+    "fields": {
+      "name": "Christmas Island",
+      "code": "CX"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 48,
+    "fields": {
+      "name": "Cocos (Keeling) Islands",
+      "code": "CC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 49,
+    "fields": {
+      "name": "Colombia",
+      "code": "CO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 50,
+    "fields": {
+      "name": "Comoros",
+      "code": "KM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 51,
+    "fields": {
+      "name": "Congo",
+      "code": "CG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 52,
+    "fields": {
+      "name": "Congo, Democratic Republic",
+      "code": "CD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 53,
+    "fields": {
+      "name": "Cook Islands",
+      "code": "CK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 54,
+    "fields": {
+      "name": "Costa Rica",
+      "code": "CR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 55,
+    "fields": {
+      "name": "Cote D\"Ivoire",
+      "code": "CI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 56,
+    "fields": {
+      "name": "Croatia",
+      "code": "HR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 57,
+    "fields": {
+      "name": "Cuba",
+      "code": "CU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 58,
+    "fields": {
+      "name": "Cyprus",
+      "code": "CY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 59,
+    "fields": {
+      "name": "Czech Republic",
+      "code": "CZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 60,
+    "fields": {
+      "name": "Denmark",
+      "code": "DK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 61,
+    "fields": {
+      "name": "Djibouti",
+      "code": "DJ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 62,
+    "fields": {
+      "name": "Dominica",
+      "code": "DM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 63,
+    "fields": {
+      "name": "Dominican Republic",
+      "code": "DO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 64,
+    "fields": {
+      "name": "Ecuador",
+      "code": "EC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 65,
+    "fields": {
+      "name": "Egypt",
+      "code": "EG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 66,
+    "fields": {
+      "name": "El Salvador",
+      "code": "SV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 67,
+    "fields": {
+      "name": "Equatorial Guinea",
+      "code": "GQ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 68,
+    "fields": {
+      "name": "Eritrea",
+      "code": "ER"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 69,
+    "fields": {
+      "name": "Estonia",
+      "code": "EE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 70,
+    "fields": {
+      "name": "Ethiopia",
+      "code": "ET"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 71,
+    "fields": {
+      "name": "Falkland Islands (Malvinas)",
+      "code": "FK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 72,
+    "fields": {
+      "name": "Faroe Islands",
+      "code": "FO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 73,
+    "fields": {
+      "name": "Fiji",
+      "code": "FJ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 74,
+    "fields": {
+      "name": "Finland",
+      "code": "FI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 75,
+    "fields": {
+      "name": "France",
+      "code": "FR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 76,
+    "fields": {
+      "name": "French Guiana",
+      "code": "GF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 77,
+    "fields": {
+      "name": "French Polynesia",
+      "code": "PF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 78,
+    "fields": {
+      "name": "French Southern Territories",
+      "code": "TF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 79,
+    "fields": {
+      "name": "Gabon",
+      "code": "GA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 80,
+    "fields": {
+      "name": "Gambia",
+      "code": "GM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 81,
+    "fields": {
+      "name": "Georgia",
+      "code": "GE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 82,
+    "fields": {
+      "name": "Germany",
+      "code": "DE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 83,
+    "fields": {
+      "name": "Ghana",
+      "code": "GH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 84,
+    "fields": {
+      "name": "Gibraltar",
+      "code": "GI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 85,
+    "fields": {
+      "name": "Greece",
+      "code": "GR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 86,
+    "fields": {
+      "name": "Greenland",
+      "code": "GL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 87,
+    "fields": {
+      "name": "Grenada",
+      "code": "GD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 88,
+    "fields": {
+      "name": "Guadeloupe",
+      "code": "GP"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 89,
+    "fields": {
+      "name": "Guam",
+      "code": "GU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 90,
+    "fields": {
+      "name": "Guatemala",
+      "code": "GT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 91,
+    "fields": {
+      "name": "Guernsey",
+      "code": "GG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 92,
+    "fields": {
+      "name": "Guinea",
+      "code": "GN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 93,
+    "fields": {
+      "name": "Guinea-Bissau",
+      "code": "GW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 94,
+    "fields": {
+      "name": "Guyana",
+      "code": "GY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 95,
+    "fields": {
+      "name": "Haiti",
+      "code": "HT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 96,
+    "fields": {
+      "name": "Heard Island and Mcdonald Islands",
+      "code": "HM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 97,
+    "fields": {
+      "name": "Holy See (Vatican City State)",
+      "code": "VA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 98,
+    "fields": {
+      "name": "Honduras",
+      "code": "HN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 99,
+    "fields": {
+      "name": "Hong Kong",
+      "code": "HK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 100,
+    "fields": {
+      "name": "Hungary",
+      "code": "HU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 101,
+    "fields": {
+      "name": "Iceland",
+      "code": "IS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 102,
+    "fields": {
+      "name": "India",
+      "code": "IN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 103,
+    "fields": {
+      "name": "Indonesia",
+      "code": "ID"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 104,
+    "fields": {
+      "name": "Iran",
+      "code": "IR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 105,
+    "fields": {
+      "name": "Iraq",
+      "code": "IQ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 106,
+    "fields": {
+      "name": "Ireland",
+      "code": "IE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 107,
+    "fields": {
+      "name": "Isle of Man",
+      "code": "IM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 108,
+    "fields": {
+      "name": "Israel",
+      "code": "IL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 109,
+    "fields": {
+      "name": "Italy",
+      "code": "IT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 110,
+    "fields": {
+      "name": "Jamaica",
+      "code": "JM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 111,
+    "fields": {
+      "name": "Japan",
+      "code": "JP"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 112,
+    "fields": {
+      "name": "Jersey",
+      "code": "JE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 113,
+    "fields": {
+      "name": "Jordan",
+      "code": "JO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 114,
+    "fields": {
+      "name": "Kazakhstan",
+      "code": "KZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 115,
+    "fields": {
+      "name": "Kenya",
+      "code": "KE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 116,
+    "fields": {
+      "name": "Kiribati",
+      "code": "KI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 117,
+    "fields": {
+      "name": "Korea (North)",
+      "code": "KP"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 118,
+    "fields": {
+      "name": "Korea (South)",
+      "code": "KR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 119,
+    "fields": {
+      "name": "Kosovo",
+      "code": "XK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 120,
+    "fields": {
+      "name": "Kuwait",
+      "code": "KW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 121,
+    "fields": {
+      "name": "Kyrgyzstan",
+      "code": "KG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 122,
+    "fields": {
+      "name": "Laos",
+      "code": "LA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 123,
+    "fields": {
+      "name": "Latvia",
+      "code": "LV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 124,
+    "fields": {
+      "name": "Lebanon",
+      "code": "LB"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 125,
+    "fields": {
+      "name": "Lesotho",
+      "code": "LS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 126,
+    "fields": {
+      "name": "Liberia",
+      "code": "LR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 127,
+    "fields": {
+      "name": "Libyan Arab Jamahiriya",
+      "code": "LY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 128,
+    "fields": {
+      "name": "Liechtenstein",
+      "code": "LI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 129,
+    "fields": {
+      "name": "Lithuania",
+      "code": "LT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 130,
+    "fields": {
+      "name": "Luxembourg",
+      "code": "LU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 131,
+    "fields": {
+      "name": "Macao",
+      "code": "MO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 132,
+    "fields": {
+      "name": "Macedonia",
+      "code": "MK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 133,
+    "fields": {
+      "name": "Madagascar",
+      "code": "MG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 134,
+    "fields": {
+      "name": "Malawi",
+      "code": "MW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 135,
+    "fields": {
+      "name": "Malaysia",
+      "code": "MY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 136,
+    "fields": {
+      "name": "Maldives",
+      "code": "MV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 137,
+    "fields": {
+      "name": "Mali",
+      "code": "ML"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 138,
+    "fields": {
+      "name": "Malta",
+      "code": "MT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 139,
+    "fields": {
+      "name": "Marshall Islands",
+      "code": "MH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 140,
+    "fields": {
+      "name": "Martinique",
+      "code": "MQ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 141,
+    "fields": {
+      "name": "Mauritania",
+      "code": "MR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 142,
+    "fields": {
+      "name": "Mauritius",
+      "code": "MU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 143,
+    "fields": {
+      "name": "Mayotte",
+      "code": "YT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 144,
+    "fields": {
+      "name": "Mexico",
+      "code": "MX"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 145,
+    "fields": {
+      "name": "Micronesia",
+      "code": "FM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 146,
+    "fields": {
+      "name": "Moldova",
+      "code": "MD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 147,
+    "fields": {
+      "name": "Monaco",
+      "code": "MC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 148,
+    "fields": {
+      "name": "Mongolia",
+      "code": "MN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 149,
+    "fields": {
+      "name": "Montserrat",
+      "code": "MS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 150,
+    "fields": {
+      "name": "Morocco",
+      "code": "MA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 151,
+    "fields": {
+      "name": "Mozambique",
+      "code": "MZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 152,
+    "fields": {
+      "name": "Myanmar",
+      "code": "MM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 153,
+    "fields": {
+      "name": "Namibia",
+      "code": "NA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 154,
+    "fields": {
+      "name": "Nauru",
+      "code": "NR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 155,
+    "fields": {
+      "name": "Netherlands",
+      "code": "NL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 156,
+    "fields": {
+      "name": "Netherlands Antilles",
+      "code": "AN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 157,
+    "fields": {
+      "name": "New Caledonia",
+      "code": "NC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 158,
+    "fields": {
+      "name": "New Zealand",
+      "code": "NZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 159,
+    "fields": {
+      "name": "Nicaragua",
+      "code": "NI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 160,
+    "fields": {
+      "name": "Niger",
+      "code": "NE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 161,
+    "fields": {
+      "name": "Nigeria",
+      "code": "NG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 162,
+    "fields": {
+      "name": "Niue",
+      "code": "NU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 163,
+    "fields": {
+      "name": "Norfolk Island",
+      "code": "NF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 164,
+    "fields": {
+      "name": "Northern Mariana Islands",
+      "code": "MP"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 165,
+    "fields": {
+      "name": "Norway",
+      "code": "NO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 166,
+    "fields": {
+      "name": "Oman",
+      "code": "OM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 167,
+    "fields": {
+      "name": "Pakistan",
+      "code": "PK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 168,
+    "fields": {
+      "name": "Palau",
+      "code": "PW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 169,
+    "fields": {
+      "name": "Palestinian Territory, Occupied",
+      "code": "PS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 170,
+    "fields": {
+      "name": "Panama",
+      "code": "PA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 171,
+    "fields": {
+      "name": "Papua New Guinea",
+      "code": "PG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 172,
+    "fields": {
+      "name": "Paraguay",
+      "code": "PY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 173,
+    "fields": {
+      "name": "Peru",
+      "code": "PE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 174,
+    "fields": {
+      "name": "Philippines",
+      "code": "PH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 175,
+    "fields": {
+      "name": "Pitcairn",
+      "code": "PN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 176,
+    "fields": {
+      "name": "Poland",
+      "code": "PL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 177,
+    "fields": {
+      "name": "Portugal",
+      "code": "PT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 178,
+    "fields": {
+      "name": "Puerto Rico",
+      "code": "PR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 179,
+    "fields": {
+      "name": "Qatar",
+      "code": "QA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 180,
+    "fields": {
+      "name": "Reunion",
+      "code": "RE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 181,
+    "fields": {
+      "name": "Romania",
+      "code": "RO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 182,
+    "fields": {
+      "name": "Russian Federation",
+      "code": "RU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 183,
+    "fields": {
+      "name": "Rwanda",
+      "code": "RW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 184,
+    "fields": {
+      "name": "Saint Helena",
+      "code": "SH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 185,
+    "fields": {
+      "name": "Saint Kitts and Nevis",
+      "code": "KN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 186,
+    "fields": {
+      "name": "Saint Lucia",
+      "code": "LC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 187,
+    "fields": {
+      "name": "Saint Pierre and Miquelon",
+      "code": "PM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 188,
+    "fields": {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "VC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 189,
+    "fields": {
+      "name": "Samoa",
+      "code": "WS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 190,
+    "fields": {
+      "name": "San Marino",
+      "code": "SM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 191,
+    "fields": {
+      "name": "Sao Tome and Principe",
+      "code": "ST"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 192,
+    "fields": {
+      "name": "Saudi Arabia",
+      "code": "SA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 193,
+    "fields": {
+      "name": "Senegal",
+      "code": "SN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 194,
+    "fields": {
+      "name": "Serbia",
+      "code": "RS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 195,
+    "fields": {
+      "name": "Montenegro",
+      "code": "ME"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 196,
+    "fields": {
+      "name": "Seychelles",
+      "code": "SC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 197,
+    "fields": {
+      "name": "Sierra Leone",
+      "code": "SL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 198,
+    "fields": {
+      "name": "Singapore",
+      "code": "SG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 199,
+    "fields": {
+      "name": "Slovakia",
+      "code": "SK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 200,
+    "fields": {
+      "name": "Slovenia",
+      "code": "SI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 201,
+    "fields": {
+      "name": "Solomon Islands",
+      "code": "SB"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 202,
+    "fields": {
+      "name": "Somalia",
+      "code": "SO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 203,
+    "fields": {
+      "name": "South Africa",
+      "code": "ZA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 204,
+    "fields": {
+      "name": "South Georgia and the South Sandwich Islands",
+      "code": "GS"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 205,
+    "fields": {
+      "name": "Spain",
+      "code": "ES"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 206,
+    "fields": {
+      "name": "Sri Lanka",
+      "code": "LK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 207,
+    "fields": {
+      "name": "Sudan",
+      "code": "SD"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 208,
+    "fields": {
+      "name": "Suriname",
+      "code": "SR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 209,
+    "fields": {
+      "name": "Svalbard and Jan Mayen",
+      "code": "SJ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 210,
+    "fields": {
+      "name": "Swaziland",
+      "code": "SZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 211,
+    "fields": {
+      "name": "Sweden",
+      "code": "SE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 212,
+    "fields": {
+      "name": "Switzerland",
+      "code": "CH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 213,
+    "fields": {
+      "name": "Syrian Arab Republic",
+      "code": "SY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 214,
+    "fields": {
+      "name": "Taiwan, Province of China",
+      "code": "TW"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 215,
+    "fields": {
+      "name": "Tajikistan",
+      "code": "TJ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 216,
+    "fields": {
+      "name": "Tanzania",
+      "code": "TZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 217,
+    "fields": {
+      "name": "Thailand",
+      "code": "TH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 218,
+    "fields": {
+      "name": "Timor-Leste",
+      "code": "TL"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 219,
+    "fields": {
+      "name": "Togo",
+      "code": "TG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 220,
+    "fields": {
+      "name": "Tokelau",
+      "code": "TK"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 221,
+    "fields": {
+      "name": "Tonga",
+      "code": "TO"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 222,
+    "fields": {
+      "name": "Trinidad and Tobago",
+      "code": "TT"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 223,
+    "fields": {
+      "name": "Tunisia",
+      "code": "TN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 224,
+    "fields": {
+      "name": "Turkey",
+      "code": "TR"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 225,
+    "fields": {
+      "name": "Turkmenistan",
+      "code": "TM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 226,
+    "fields": {
+      "name": "Turks and Caicos Islands",
+      "code": "TC"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 227,
+    "fields": {
+      "name": "Tuvalu",
+      "code": "TV"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 228,
+    "fields": {
+      "name": "Uganda",
+      "code": "UG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 229,
+    "fields": {
+      "name": "Ukraine",
+      "code": "UA"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 230,
+    "fields": {
+      "name": "United Arab Emirates",
+      "code": "AE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 231,
+    "fields": {
+      "name": "United Kingdom",
+      "code": "GB"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 232,
+    "fields": {
+      "name": "United States",
+      "code": "US"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 233,
+    "fields": {
+      "name": "United States Minor Outlying Islands",
+      "code": "UM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 234,
+    "fields": {
+      "name": "Uruguay",
+      "code": "UY"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 235,
+    "fields": {
+      "name": "Uzbekistan",
+      "code": "UZ"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 236,
+    "fields": {
+      "name": "Vanuatu",
+      "code": "VU"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 237,
+    "fields": {
+      "name": "Venezuela",
+      "code": "VE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 238,
+    "fields": {
+      "name": "Viet Nam",
+      "code": "VN"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 239,
+    "fields": {
+      "name": "Virgin Islands, British",
+      "code": "VG"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 240,
+    "fields": {
+      "name": "Virgin Islands, U.S.",
+      "code": "VI"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 241,
+    "fields": {
+      "name": "Wallis and Futuna",
+      "code": "WF"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 242,
+    "fields": {
+      "name": "Western Sahara",
+      "code": "EH"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 243,
+    "fields": {
+      "name": "Yemen",
+      "code": "YE"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 244,
+    "fields": {
+      "name": "Zambia",
+      "code": "ZM"
+    }
+  },
+  {
+    "model": "address.Country",
+    "pk": 245,
+    "fields": {
+      "name": "Zimbabwe",
+      "code": "ZW"
+    }
+  },
+
+
+
+
+  {
+    "model": "address.State",
+    "pk": 1,
+    "fields": {
+      "name": "Province 1",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 2,
+    "fields": {
+      "name": "Province 2",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 3,
+    "fields": {
+      "name": "Province 3",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 4,
+    "fields": {
+      "name": "Province 4",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 5,
+    "fields": {
+      "name": "Province 5",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 6,
+    "fields": {
+      "name": "Province 6",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.State",
+    "pk": 7,
+    "fields": {
+      "name": "Province 7",
+      "country": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 1,
+    "fields": {
+      "name": "Bhojpur",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 2,
+    "fields": {
+      "name": "Dhankuta",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 3,
+    "fields": {
+      "name": "Ilam",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 4,
+    "fields": {
+      "name": "Jhapa",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 5,
+    "fields": {
+      "name": "Khotang",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 6,
+    "fields": {
+      "name": "Morang",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 7,
+    "fields": {
+      "name": "Okhaldhunga",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 8,
+    "fields": {
+      "name": "Panchthar",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 9,
+    "fields": {
+      "name": "Sankhuwasabha",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 10,
+    "fields": {
+      "name": "Solukhumbu",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 11,
+    "fields": {
+      "name": "Sunsari",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 12,
+    "fields": {
+      "name": "Taplejung",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 13,
+    "fields": {
+      "name": "Terhathum",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 14,
+    "fields": {
+      "name": "Udayapur",
+      "state": 1
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 15,
+    "fields": {
+      "name": "Saptari District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 16,
+    "fields": {
+      "name": "Siraha District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 17,
+    "fields": {
+      "name": "Dhanusa District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 18,
+    "fields": {
+      "name": "Mahottari District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 19,
+    "fields": {
+      "name": "Sarlahi District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 20,
+    "fields": {
+      "name": "Bara District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 21,
+    "fields": {
+      "name": "Parsa District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 22,
+    "fields": {
+      "name": "Rautahat District",
+      "state": 2
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 23,
+    "fields": {
+      "name": "Sindhuli District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 24,
+    "fields": {
+      "name": "Ramechhap District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 25,
+    "fields": {
+      "name": "Dolakha District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 26,
+    "fields": {
+      "name": "Bhaktapur District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 27,
+    "fields": {
+      "name": "Dhading District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 28,
+    "fields": {
+      "name": "Kathmandu District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 29,
+    "fields": {
+      "name": "Kavrepalanchok District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 30,
+    "fields": {
+      "name": "Lalitpur District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 31,
+    "fields": {
+      "name": "Nuwakot District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 32,
+    "fields": {
+      "name": "Rasuwa District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 33,
+    "fields": {
+      "name": "Sindhupalchok District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 34,
+    "fields": {
+      "name": "Chitwan District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 35,
+    "fields": {
+      "name": "Makwanpur District",
+      "state": 3
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 36,
+    "fields": {
+      "name": "Gorkha District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 37,
+    "fields": {
+      "name": "Kaski District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 38,
+    "fields": {
+      "name": "Lamjung District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 39,
+    "fields": {
+      "name": "Syangja District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 40,
+    "fields": {
+      "name": "Tanahu District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 41,
+    "fields": {
+      "name": "Manang District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 42,
+    "fields": {
+      "name": "Nawalpur District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 43,
+    "fields": {
+      "name": "Baglung District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 44,
+    "fields": {
+      "name": "Myagdi District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 45,
+    "fields": {
+      "name": "Parbat District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 46,
+    "fields": {
+      "name": "Mustang District",
+      "state": 4
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 47,
+    "fields": {
+      "name": "Kapilvastu District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 48,
+    "fields": {
+      "name": "Parasi District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 49,
+    "fields": {
+      "name": "Rupandehi District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 50,
+    "fields": {
+      "name": "Arghakhanchi District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 51,
+    "fields": {
+      "name": "Gulmi District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 52,
+    "fields": {
+      "name": "Palpa District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 53,
+    "fields": {
+      "name": "Dang District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 54,
+    "fields": {
+      "name": "Pyuthan District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 55,
+    "fields": {
+      "name": "Rolpa District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 56,
+    "fields": {
+      "name": "Eastern Rukum District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 57,
+    "fields": {
+      "name": "Banke District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 58,
+    "fields": {
+      "name": "Bardiya District",
+      "state": 5
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 59,
+    "fields": {
+      "name": "Western Rukum District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 60,
+    "fields": {
+      "name": "Salyan District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 61,
+    "fields": {
+      "name": "Dolpa District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 62,
+    "fields": {
+      "name": "Humla District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 63,
+    "fields": {
+      "name": "Jumla District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 64,
+    "fields": {
+      "name": "Kalikot District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 65,
+    "fields": {
+      "name": "Mugu District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 66,
+    "fields": {
+      "name": "Surkhet District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 67,
+    "fields": {
+      "name": "Dailekh District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 68,
+    "fields": {
+      "name": "Jajarkot District",
+      "state": 6
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 69,
+    "fields": {
+      "name": "Kailali District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 70,
+    "fields": {
+      "name": "Achham District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 71,
+    "fields": {
+      "name": "Doti District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 72,
+    "fields": {
+      "name": "Bajhang District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 73,
+    "fields": {
+      "name": "Bajura District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 74,
+    "fields": {
+      "name": "Kanchanpur District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 75,
+    "fields": {
+      "name": "Dadeldhura District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 76,
+    "fields": {
+      "name": "Baitadi District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.District",
+    "pk": 77,
+    "fields": {
+      "name": "Darchula District",
+      "state": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 1,
+    "fields": {
+      "name": "Shadanand",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 2,
+    "fields": {
+      "name": "Bhojpur",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 3,
+    "fields": {
+      "name": "Hatuwagadhi",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 4,
+    "fields": {
+      "name": "Ramprasad Rai",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 5,
+    "fields": {
+      "name": "Aamchok",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 6,
+    "fields": {
+      "name": "Tyamke Maiyunm",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 7,
+    "fields": {
+      "name": "Arun",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 8,
+    "fields": {
+      "name": "Pauwadungma",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 9,
+    "fields": {
+      "name": "Salpasilichho",
+      "district": 1
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 10,
+    "fields": {
+      "name": "Dhankuta",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 11,
+    "fields": {
+      "name": "Mahalaxmi",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 12,
+    "fields": {
+      "name": "Pakhribas",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 12,
+    "fields": {
+      "name": "Sangurigadhi",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 14,
+    "fields": {
+      "name": "Chaubise",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 15,
+    "fields": {
+      "name": "Khalsa Chhintang Sahidbhumi",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 16,
+    "fields": {
+      "name": "Chhathar Jorpati",
+      "district": 2
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 17,
+    "fields": {
+      "name": "Suryodaya",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 18,
+    "fields": {
+      "name": "Ilam",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 19,
+    "fields": {
+      "name": "Deumai",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 20,
+    "fields": {
+      "name": "Mai",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 21,
+    "fields": {
+      "name": "Phakphokthum",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 22,
+    "fields": {
+      "name": "Mai Jogmai",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 23,
+    "fields": {
+      "name": "Chulachuli",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 24,
+    "fields": {
+      "name": "Rong",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 25,
+    "fields": {
+      "name": "Mangsebung",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 26,
+    "fields": {
+      "name": "Sandakpur",
+      "district": 3
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 27,
+    "fields": {
+      "name": "Mechinagar",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 28,
+    "fields": {
+      "name": "Birtamod",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 29,
+    "fields": {
+      "name": "Damak",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 30,
+    "fields": {
+      "name": "Bhadrapur",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 31,
+    "fields": {
+      "name": "Shiva Sataxi",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 32,
+    "fields": {
+      "name": "Arjundhara",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 33,
+    "fields": {
+      "name": "Gauradaha",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 34,
+    "fields": {
+      "name": "Kankai",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 35,
+    "fields": {
+      "name": "Kamal",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 36,
+    "fields": {
+      "name": "Buddha Shanti",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 37,
+    "fields": {
+      "name": "Kachankawal",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 38,
+    "fields": {
+      "name": "Jhapa",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 39,
+    "fields": {
+      "name": "Barhadashi",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 40,
+    "fields": {
+      "name": "Gaurigunj",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 41,
+    "fields": {
+      "name": "Haldibari",
+      "district": 4
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 42,
+    "fields": {
+      "name": "Diktel Rupakot Majuwagadhi",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 43,
+    "fields": {
+      "name": "Halesi Tuwachung",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 44,
+    "fields": {
+      "name": "Khotehang",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 45,
+    "fields": {
+      "name": "Diprung",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 46,
+    "fields": {
+      "name": "Aiselukharka",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 47,
+    "fields": {
+      "name": "Jantedhunga",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 48,
+    "fields": {
+      "name": "Kepilasgadhi",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 49,
+    "fields": {
+      "name": "Barahpokhari",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 50,
+    "fields": {
+      "name": "Lamidanda",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 51,
+    "fields": {
+      "name": "Sakela",
+      "district": 5
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 52,
+    "fields": {
+      "name": "Biratnagar",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 53,
+    "fields": {
+      "name": "Sundar Haraincha",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 54,
+    "fields": {
+      "name": "Belbaari",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 55,
+    "fields": {
+      "name": "Pathari Shanischare",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 56,
+    "fields": {
+      "name": "Ratuwamai",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 57,
+    "fields": {
+      "name": "Urlabari",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 58,
+    "fields": {
+      "name": "Rangeli",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 59,
+    "fields": {
+      "name": "Sunawarshi",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 60,
+    "fields": {
+      "name": "Letang",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 61,
+    "fields": {
+      "name": "Budi Ganga",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 62,
+    "fields": {
+      "name": "Katahari",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 63,
+    "fields": {
+      "name": "Dhanpalthan",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 64,
+    "fields": {
+      "name": "Kanepokhari",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 65,
+    "fields": {
+      "name": "Gramthan",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 66,
+    "fields": {
+      "name": "Kerabari",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 67,
+    "fields": {
+      "name": "Jahada",
+      "district": 6
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 68,
+    "fields": {
+      "name": "Siddhicharan",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 69,
+    "fields": {
+      "name": "Manebhanjyang",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 70,
+    "fields": {
+      "name": "Champadevi",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 71,
+    "fields": {
+      "name": "Sunkoshi",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 72,
+    "fields": {
+      "name": "Molung",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 73,
+    "fields": {
+      "name": "Chisankhugadhi",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 74,
+    "fields": {
+      "name": "Khiji Demba",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 75,
+    "fields": {
+      "name": "Likhu",
+      "district": 7
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 76,
+    "fields": {
+      "name": "Phidim",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 77,
+    "fields": {
+      "name": "Miklajung",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 78,
+    "fields": {
+      "name": "Phalgunanda",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 79,
+    "fields": {
+      "name": "Hilihang",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 80,
+    "fields": {
+      "name": "Phalelung",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 81,
+    "fields": {
+      "name": "Yangwarak",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 82,
+    "fields": {
+      "name": "Kummayak",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 83,
+    "fields": {
+      "name": "Tumbewa",
+      "district": 8
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 84,
+    "fields": {
+      "name": "Khandbari",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 85,
+    "fields": {
+      "name": "Chainpur",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 86,
+    "fields": {
+      "name": "Dharmadevi",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 87,
+    "fields": {
+      "name": "Panchkhapan",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 88,
+    "fields": {
+      "name": "Madi",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 89,
+    "fields": {
+      "name": "Makalu",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 90,
+    "fields": {
+      "name": "Silichong",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 91,
+    "fields": {
+      "name": "Sabhapokhari",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 92,
+    "fields": {
+      "name": "Chichila",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 93,
+    "fields": {
+      "name": "Bhot Khola",
+      "district": 9
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 94,
+    "fields": {
+      "name": "Solu Dudhkunda",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 95,
+    "fields": {
+      "name": "Dudhakaushika",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 96,
+    "fields": {
+      "name": "Necha Salyan",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 97,
+    "fields": {
+      "name": "Dudhkoshi",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 98,
+    "fields": {
+      "name": "Maha Kulung",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 99,
+    "fields": {
+      "name": "Sotang",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 100,
+    "fields": {
+      "name": "Khumbu Pasang Lhamu",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 101,
+    "fields": {
+      "name": "Likhu Pike",
+      "district": 10
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 102,
+    "fields": {
+      "name": "Itahari",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 103,
+    "fields": {
+      "name": "Dharan",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 104,
+    "fields": {
+      "name": "Barahachhetra",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 105,
+    "fields": {
+      "name": "Inaruwa",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 106,
+    "fields": {
+      "name": "Duhabi",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 107,
+    "fields": {
+      "name": "Ramdhuni",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 108,
+    "fields": {
+      "name": "Koshi",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 109,
+    "fields": {
+      "name": "Harinagara",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 110,
+    "fields": {
+      "name": "Bhokraha",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 111,
+    "fields": {
+      "name": "Dewangunj",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 112,
+    "fields": {
+      "name": "Gadhi",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 113,
+    "fields": {
+      "name": "Barju",
+      "district": 11
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 114,
+    "fields": {
+      "name": "Phungling",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 115,
+    "fields": {
+      "name": "Sirijangha",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 116,
+    "fields": {
+      "name": "Aathrai Triveni",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 117,
+    "fields": {
+      "name": "Pathibhara Yangwarak",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 118,
+    "fields": {
+      "name": "Meringden",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 119,
+    "fields": {
+      "name": "Sidingwa",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 200,
+    "fields": {
+      "name": "Phaktanglung",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 201,
+    "fields": {
+      "name": "Maiwa Khola",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 202,
+    "fields": {
+      "name": "Mikwa Khola",
+      "district": 12
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 203,
+    "fields": {
+      "name": "Myanglung",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 204,
+    "fields": {
+      "name": "Laligurans",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 205,
+    "fields": {
+      "name": "Aathrai",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 206,
+    "fields": {
+      "name": "Phedap",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 207,
+    "fields": {
+      "name": "Chhathar",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 208,
+    "fields": {
+      "name": "Menchayayem",
+      "district": 13
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 209,
+    "fields": {
+      "name": "Triyuga",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 210,
+    "fields": {
+      "name": "Katari",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 211,
+    "fields": {
+      "name": "Chaudandigadhi",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 212,
+    "fields": {
+      "name": "Belaka",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 213,
+    "fields": {
+      "name": "Udayapurgadhi",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 214,
+    "fields": {
+      "name": "Rautamai",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 215,
+    "fields": {
+      "name": "Tapli",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 216,
+    "fields": {
+      "name": "Limchungbung",
+      "district": 14
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 217,
+    "fields": {
+      "name": "Rajbiraj",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 218,
+    "fields": {
+      "name": "Hanumannagar Kankalini",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 219,
+    "fields": {
+      "name": "Khadak",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 220,
+    "fields": {
+      "name": "Dakneshwari",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 221,
+    "fields": {
+      "name": "Surunga",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 222,
+    "fields": {
+      "name": "Bode Barsain",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 223,
+    "fields": {
+      "name": "Shambhunath",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 224,
+    "fields": {
+      "name": "Kanchanrup",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 225,
+    "fields": {
+      "name": "Saptakoshi",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 226,
+    "fields": {
+      "name": "Tilathi Koiladi",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 227,
+    "fields": {
+      "name": "Belhi Chapena",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 228,
+    "fields": {
+      "name": "Chhinnamasta",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 229,
+    "fields": {
+      "name": "Mahadeva",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 230,
+    "fields": {
+      "name": "Aagnisaira Krishnasawaran",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 231,
+    "fields": {
+      "name": "Rupani",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 232,
+    "fields": {
+      "name": "Balan-Bihul",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 233,
+    "fields": {
+      "name": "Bishnupur",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 234,
+    "fields": {
+      "name": "Tirhut",
+      "district": 15
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 235,
+    "fields": {
+      "name": "Lahan",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 236,
+    "fields": {
+      "name": "Siraha",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 237,
+    "fields": {
+      "name": "Golbazar",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 238,
+    "fields": {
+      "name": "Mirchaiya",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 239,
+    "fields": {
+      "name": "Kalyanpur",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 240,
+    "fields": {
+      "name": "Dhangadimai",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 241,
+    "fields": {
+      "name": "Sukhipur",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 242,
+    "fields": {
+      "name": "Karjanha",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 243,
+    "fields": {
+      "name": "Laksmipur Patari",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 244,
+    "fields": {
+      "name": "Bariyarpatti",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 245,
+    "fields": {
+      "name": "Aaurahi",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 246,
+    "fields": {
+      "name": "Arnama",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 247,
+    "fields": {
+      "name": "Bhagawanpur",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 248,
+    "fields": {
+      "name": "Naraha",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 249,
+    "fields": {
+      "name": "Nawarajpur",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 250,
+    "fields": {
+      "name": "Sakhuwanankarkatti",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 251,
+    "fields": {
+      "name": "Bishnupur",
+      "district": 16
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 252,
+    "fields": {
+      "name": "Janakpur",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 253,
+    "fields": {
+      "name": "Sabaila",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 254,
+    "fields": {
+      "name": "Dhanushadham",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 255,
+    "fields": {
+      "name": "Mithila",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 256,
+    "fields": {
+      "name": "Shahidnagar",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 257,
+    "fields": {
+      "name": "Kshireshwor Nath",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 258,
+    "fields": {
+      "name": "Hansapur",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 259,
+    "fields": {
+      "name": "Kamala",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 260,
+    "fields": {
+      "name": "Ganeshman Charnath",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 261,
+    "fields": {
+      "name": "Nagarain",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 262,
+    "fields": {
+      "name": "Mithila Bihari",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 263,
+    "fields": {
+      "name": "Bideha",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 264,
+    "fields": {
+      "name": "Laksminiya",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 265,
+    "fields": {
+      "name": "Mukhiyapatti Musaharmiya",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 266,
+    "fields": {
+      "name": "Janak Nandini",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 267,
+    "fields": {
+      "name": "Aaurahi",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 268,
+    "fields": {
+      "name": "Bateshwar",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 269,
+    "fields": {
+      "name": "Dhanauji",
+      "district": 17
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 270,
+    "fields": {
+      "name": "Gaushala",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 271,
+    "fields": {
+      "name": "Bardibas",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 272,
+    "fields": {
+      "name": "Jaleshwar",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 273,
+    "fields": {
+      "name": "Manara Shisawa",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 274,
+    "fields": {
+      "name": "Bhangaha",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 275,
+    "fields": {
+      "name": "Balawa",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 276,
+    "fields": {
+      "name": "Loharpatti",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 277,
+    "fields": {
+      "name": "Aurahi",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 278,
+    "fields": {
+      "name": "Matihani",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 279,
+    "fields": {
+      "name": "Ramgopalpur",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 280,
+    "fields": {
+      "name": "Sonama",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 281,
+    "fields": {
+      "name": "Pipara",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 282,
+    "fields": {
+      "name": "Samsi",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 283,
+    "fields": {
+      "name": "Ekdara",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 284,
+    "fields": {
+      "name": "Mahottari",
+      "district": 18
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 285,
+    "fields": {
+      "name": "Barahathawa",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 286,
+    "fields": {
+      "name": "Ishworpur",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 287,
+    "fields": {
+      "name": "Lalbandi",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 288,
+    "fields": {
+      "name": "Godaita",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 289,
+    "fields": {
+      "name": "Malangwa",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 290,
+    "fields": {
+      "name": "Balara",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 291,
+    "fields": {
+      "name": "Hariwan",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 292,
+    "fields": {
+      "name": "Kabilasi",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 293,
+    "fields": {
+      "name": "Bagmati",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 294,
+    "fields": {
+      "name": "Haripur",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 295,
+    "fields": {
+      "name": "Haripurwa",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 296,
+    "fields": {
+      "name": "Chandranagar",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 297,
+    "fields": {
+      "name": "Bramhapuri",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 298,
+    "fields": {
+      "name": "Ramnagar",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 299,
+    "fields": {
+      "name": "Chakraghatta",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 300,
+    "fields": {
+      "name": "Kaudena",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 301,
+    "fields": {
+      "name": "Dhankaul",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 302,
+    "fields": {
+      "name": "Bishnu",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 303,
+    "fields": {
+      "name": "Basbariya",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 304,
+    "fields": {
+      "name": "Parsa",
+      "district": 19
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 305,
+    "fields": {
+      "name": "Kalaiya",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 306,
+    "fields": {
+      "name": "Jeetpur Simara",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 307,
+    "fields": {
+      "name": "Mahagadhimai",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 308,
+    "fields": {
+      "name": "Simraungadh",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 309,
+    "fields": {
+      "name": "Kolhabi",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 310,
+    "fields": {
+      "name": "Nijgadh",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 311,
+    "fields": {
+      "name": "Pachrauta",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 312,
+    "fields": {
+      "name": "Subarna",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 313,
+    "fields": {
+      "name": "Adarsha Kotwal",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 314,
+    "fields": {
+      "name": "Baragadhi",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 315,
+    "fields": {
+      "name": "Pheta",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 316,
+    "fields": {
+      "name": "Karaiyamai",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 317,
+    "fields": {
+      "name": "Prasauni",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 318,
+    "fields": {
+      "name": "Bishrampur",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 319,
+    "fields": {
+      "name": "Devtal",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 320,
+    "fields": {
+      "name": "Parawanipur",
+      "district": 20
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 321,
+    "fields": {
+      "name": "Birgunj",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 322,
+    "fields": {
+      "name": "Bahudarmai",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 323,
+    "fields": {
+      "name": "Parsagadhi",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 324,
+    "fields": {
+      "name": "Pokhariya",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 325,
+    "fields": {
+      "name": "Sakhuwa Prasauni",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 326,
+    "fields": {
+      "name": "Jagarnathpur",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 327,
+    "fields": {
+      "name": "Chhipaharmai",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 328,
+    "fields": {
+      "name": "Bindabasini",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 329,
+    "fields": {
+      "name": "Paterwa Sugauli",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 330,
+    "fields": {
+      "name": "Jeera Bhavani",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 331,
+    "fields": {
+      "name": "Kalikamai",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 332,
+    "fields": {
+      "name": "Pakaha Mainpur",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 333,
+    "fields": {
+      "name": "Thori",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 334,
+    "fields": {
+      "name": "Dhobini",
+      "district": 21
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 335,
+    "fields": {
+      "name": "Chandrapur",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 336,
+    "fields": {
+      "name": "Garuda",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 337,
+    "fields": {
+      "name": "Gujara",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 338,
+    "fields": {
+      "name": "Brindaban",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 339,
+    "fields": {
+      "name": "Ishnath",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 340,
+    "fields": {
+      "name": "Rajpur",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 341,
+    "fields": {
+      "name": "Gadhimai",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 342,
+    "fields": {
+      "name": "Katahariya",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 343,
+    "fields": {
+      "name": "Paroha",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 344,
+    "fields": {
+      "name": "Phatuwa Bijayapur",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 345,
+    "fields": {
+      "name": "Baudhimai",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 346,
+    "fields": {
+      "name": "Madhav Narayan",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 347,
+    "fields": {
+      "name": "Gaur",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 348,
+    "fields": {
+      "name": "Dewahi Gonahi",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 349,
+    "fields": {
+      "name": "Rajdevi",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 350,
+    "fields": {
+      "name": "Maulapur",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 351,
+    "fields": {
+      "name": "Durga Bhagawati",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 352,
+    "fields": {
+      "name": "Yamunamai",
+      "district": 22
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 353,
+    "fields": {
+      "name": "Dudhauli",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 354,
+    "fields": {
+      "name": "Kamalamai",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 355,
+    "fields": {
+      "name": "Tinpatan",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 356,
+    "fields": {
+      "name": "Marin",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 357,
+    "fields": {
+      "name": "Hariharpurgadhi",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 358,
+    "fields": {
+      "name": "Sunkoshi",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 359,
+    "fields": {
+      "name": "Golanjor",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 360,
+    "fields": {
+      "name": "Phikkal",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 361,
+    "fields": {
+      "name": "Ghyanglekh",
+      "district": 23
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 362,
+    "fields": {
+      "name": "Manthali",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 363,
+    "fields": {
+      "name": "Ramechhap",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 364,
+    "fields": {
+      "name": "Khandadevi",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 365,
+    "fields": {
+      "name": "Likhu Tamakoshi",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 366,
+    "fields": {
+      "name": "Doramba",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 367,
+    "fields": {
+      "name": "Gokulganga",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 368,
+    "fields": {
+      "name": "Sunapati",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 369,
+    "fields": {
+      "name": "Umakunda",
+      "district": 24
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 370,
+    "fields": {
+      "name": "Bhimeshwar",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 371,
+    "fields": {
+      "name": "Jiri",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 372,
+    "fields": {
+      "name": "Kalinchok",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 373,
+    "fields": {
+      "name": "Melung",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 374,
+    "fields": {
+      "name": "Shailung",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 375,
+    "fields": {
+      "name": "Baiteshwar",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 376,
+    "fields": {
+      "name": "Tamakoshi",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 377,
+    "fields": {
+      "name": "Bigu",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 378,
+    "fields": {
+      "name": "Gaurishankar",
+      "district": 25
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 379,
+    "fields": {
+      "name": "Madhyapur Thimi",
+      "district": 26
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 380,
+    "fields": {
+      "name": "Bhaktapur",
+      "district": 26
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 381,
+    "fields": {
+      "name": "Suryabinayak",
+      "district": 26
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 382,
+    "fields": {
+      "name": "Changunarayan",
+      "district": 26
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 383,
+    "fields": {
+      "name": "Nilkantha",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 384,
+    "fields": {
+      "name": "Dhunibeshi",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 385,
+    "fields": {
+      "name": "Thakre",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 386,
+    "fields": {
+      "name": "Benighat Rorang",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 387,
+    "fields": {
+      "name": "Galchhi",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 388,
+    "fields": {
+      "name": "Gajuri",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 389,
+    "fields": {
+      "name": "Jwalamukhi",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 390,
+    "fields": {
+      "name": "Siddhalekh",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 391,
+    "fields": {
+      "name": "Tripura Sundari",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 392,
+    "fields": {
+      "name": "Gangajamuna",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 393,
+    "fields": {
+      "name": "Netrawati Dabjong",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 394,
+    "fields": {
+      "name": "Khaniyabas",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 395,
+    "fields": {
+      "name": "Ruby Valley",
+      "district": 27
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 396,
+    "fields": {
+      "name": "Kathmandu",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 397,
+    "fields": {
+      "name": "Budhanilkantha",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 398,
+    "fields": {
+      "name": "Gokarneshwor",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 399,
+    "fields": {
+      "name": "Tokha",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 400,
+    "fields": {
+      "name": "Chandragiri",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 401,
+    "fields": {
+      "name": "Tarakeshor",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 402,
+    "fields": {
+      "name": "Kirtipur",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 403,
+    "fields": {
+      "name": "Nagarjun",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 404,
+    "fields": {
+      "name": "Kageshwori Manohara",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 405,
+    "fields": {
+      "name": "Shankharapur",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 406,
+    "fields": {
+      "name": "Daxinkaali",
+      "district": 28
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 407,
+    "fields": {
+      "name": "Banepa",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 408,
+    "fields": {
+      "name": "Paunauti",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 409,
+    "fields": {
+      "name": "Panchkhal",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 410,
+    "fields": {
+      "name": "Mandandeupur",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 411,
+    "fields": {
+      "name": "Dhulikhel",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 412,
+    "fields": {
+      "name": "Namobuddha",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 413,
+    "fields": {
+      "name": "Roshi",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 414,
+    "fields": {
+      "name": "Temal",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 415,
+    "fields": {
+      "name": "Chaunri Deurali",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 416,
+    "fields": {
+      "name": "Bhumlu",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 417,
+    "fields": {
+      "name": "Mahabharat",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 418,
+    "fields": {
+      "name": "Bethanchok",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 419,
+    "fields": {
+      "name": "Khanikhola",
+      "district": 29
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 420,
+    "fields": {
+      "name": "Lalitpur",
+      "district": 30
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 421,
+    "fields": {
+      "name": "Godawari",
+      "district": 30
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 422,
+    "fields": {
+      "name": "Mahalaxmi",
+      "district": 30
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 423,
+    "fields": {
+      "name": "Bidur",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 424,
+    "fields": {
+      "name": "Belkotgadhi",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 425,
+    "fields": {
+      "name": "Kakani",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 426,
+    "fields": {
+      "name": "Dupcheshwar",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 427,
+    "fields": {
+      "name": "Shivapuri",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 428,
+    "fields": {
+      "name": "Tadi",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 429,
+    "fields": {
+      "name": "Likhu",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 430,
+    "fields": {
+      "name": "Suryagadhi",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 431,
+    "fields": {
+      "name": "Panchakanya",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 432,
+    "fields": {
+      "name": "Tarkeshwar",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 433,
+    "fields": {
+      "name": "Kispang",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 434,
+    "fields": {
+      "name": "Myagang",
+      "district": 31
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 435,
+    "fields": {
+      "name": "Naukunda",
+      "district": 32
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 436,
+    "fields": {
+      "name": "Kalika",
+      "district": 32
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 437,
+    "fields": {
+      "name": "Uttargaya",
+      "district": 32
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 438,
+    "fields": {
+      "name": "Gosaikund",
+      "district": 32
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 439,
+    "fields": {
+      "name": "Aamachodingmo",
+      "district": 32
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 440,
+    "fields": {
+      "name": "Chautara Sangachowkgadhi",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 441,
+    "fields": {
+      "name": "Melamchi",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 442,
+    "fields": {
+      "name": "Barhabise",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 443,
+    "fields": {
+      "name": "Indrawati",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 444,
+    "fields": {
+      "name": "Panchpokhari Thangpal",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 445,
+    "fields": {
+      "name": "Jugal",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 446,
+    "fields": {
+      "name": "Balephi",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 447,
+    "fields": {
+      "name": "Helambu",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 448,
+    "fields": {
+      "name": "Bhotekoshi",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 449,
+    "fields": {
+      "name": "Sunkoshi",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 451,
+    "fields": {
+      "name": "Lisankhu Pakhar",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 452,
+    "fields": {
+      "name": "Tripura Sundari",
+      "district": 33
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 453,
+    "fields": {
+      "name": "Bharatpur",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 454,
+    "fields": {
+      "name": "Ratnanagar",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 455,
+    "fields": {
+      "name": "Rapti",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 456,
+    "fields": {
+      "name": "Khairhani",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 457,
+    "fields": {
+      "name": "Kalika",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 458,
+    "fields": {
+      "name": "Madi",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 459,
+    "fields": {
+      "name": "Ichchhakamana",
+      "district": 34
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 460,
+    "fields": {
+      "name": "Hetauda",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 461,
+    "fields": {
+      "name": "Thaha",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 462,
+    "fields": {
+      "name": "Bakaiya",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 463,
+    "fields": {
+      "name": "Manhari",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 464,
+    "fields": {
+      "name": "Bagmati",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 465,
+    "fields": {
+      "name": "Raksirang",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 466,
+    "fields": {
+      "name": "Makawanpurgadhi",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 467,
+    "fields": {
+      "name": "Kailash",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 468,
+    "fields": {
+      "name": "Bhimphedi",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 469,
+    "fields": {
+      "name": "Indrasarowar",
+      "district": 35
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 470,
+    "fields": {
+      "name": "Gorkha",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 471,
+    "fields": {
+      "name": "Palungtar",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 472,
+    "fields": {
+      "name": "Shahid Lakhan",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 473,
+    "fields": {
+      "name": "Barpak Sulikot",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 474,
+    "fields": {
+      "name": "Aarughat",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 475,
+    "fields": {
+      "name": "Siranchok",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 476,
+    "fields": {
+      "name": "Gandaki",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 477,
+    "fields": {
+      "name": "Bhimsen Thapa",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 478,
+    "fields": {
+      "name": "Ajirkot",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 479,
+    "fields": {
+      "name": "Dharche",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 480,
+    "fields": {
+      "name": "Chum Nubri",
+      "district": 36
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 481,
+    "fields": {
+      "name": "Pokhara Lekhnath",
+      "district": 37
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 482,
+    "fields": {
+      "name": "Annapurna",
+      "district": 37
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 483,
+    "fields": {
+      "name": "Machhapuchhre",
+      "district": 37
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 484,
+    "fields": {
+      "name": "Madi",
+      "district": 37
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 485,
+    "fields": {
+      "name": "Rupa",
+      "district": 37
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 486,
+    "fields": {
+      "name": "Besishahar",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 487,
+    "fields": {
+      "name": "Sundarbazar",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 488,
+    "fields": {
+      "name": "Madhya Nepal",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 489,
+    "fields": {
+      "name": "Rainas",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 490,
+    "fields": {
+      "name": "Marsyangdi",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 491,
+    "fields": {
+      "name": "Dordi",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 492,
+    "fields": {
+      "name": "Dudhpokhari",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 493,
+    "fields": {
+      "name": "Kwaholasothar",
+      "district": 38
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 494,
+    "fields": {
+      "name": "Waling",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 495,
+    "fields": {
+      "name": "Putalibaazar",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 496,
+    "fields": {
+      "name": "Galyang",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 497,
+    "fields": {
+      "name": "Chapakot",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 498,
+    "fields": {
+      "name": "Bheerkot",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 499,
+    "fields": {
+      "name": "Kaligandaki",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 500,
+    "fields": {
+      "name": "Biruwa",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 501,
+    "fields": {
+      "name": "Harinas",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 502,
+    "fields": {
+      "name": "Aandhikhola",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 503,
+    "fields": {
+      "name": "Arjun Chaupari",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 504,
+    "fields": {
+      "name": "Phedikhola",
+      "district": 39
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 505,
+    "fields": {
+      "name": "Vyas",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 506,
+    "fields": {
+      "name": "Shuklagandaki",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 507,
+    "fields": {
+      "name": "Bhanu",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 508,
+    "fields": {
+      "name": "Bhimad",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 509,
+    "fields": {
+      "name": "Rishing",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 510,
+    "fields": {
+      "name": "Myagde",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 511,
+    "fields": {
+      "name": "Aanbu Khaireni",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 512,
+    "fields": {
+      "name": "Bandipur",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 513,
+    "fields": {
+      "name": "Ghiring",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 514,
+    "fields": {
+      "name": "Devghat",
+      "district": 40
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 515,
+    "fields": {
+      "name": "Manang Disyang",
+      "district": 41
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 516,
+    "fields": {
+      "name": "Nason",
+      "district": 41
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 517,
+    "fields": {
+      "name": "Chame",
+      "district": 41
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 518,
+    "fields": {
+      "name": "Narpa Bhumi",
+      "district": 41
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 519,
+    "fields": {
+      "name": "Kawasoti",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 520,
+    "fields": {
+      "name": "Gaindakot",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 521,
+    "fields": {
+      "name": "Madhyabindu",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 522,
+    "fields": {
+      "name": "Devchuli",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 523,
+    "fields": {
+      "name": "Hupsekot",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 524,
+    "fields": {
+      "name": "Binayi Triveni",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 525,
+    "fields": {
+      "name": "Bulingtar",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 526,
+    "fields": {
+      "name": "Baudikali",
+      "district": 42
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 528,
+    "fields": {
+      "name": "Baglung",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 529,
+    "fields": {
+      "name": "Galkot",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 530,
+    "fields": {
+      "name": "Jaimini",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 531,
+    "fields": {
+      "name": "Dhorpatan",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 532,
+    "fields": {
+      "name": "Badigad",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 533,
+    "fields": {
+      "name": "Kathekhola",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 534,
+    "fields": {
+      "name": "Nisikhola",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 535,
+    "fields": {
+      "name": "Bareng",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 536,
+    "fields": {
+      "name": "Tarakhola",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 537,
+    "fields": {
+      "name": "Tamankhola",
+      "district": 43
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 538,
+    "fields": {
+      "name": "Beni",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 539,
+    "fields": {
+      "name": "Malika",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 540,
+    "fields": {
+      "name": "Mangala",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 541,
+    "fields": {
+      "name": "Raghuganga",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 542,
+    "fields": {
+      "name": "Dhaulagiri",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 543,
+    "fields": {
+      "name": "Annapurna",
+      "district": 44
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 544,
+    "fields": {
+      "name": "Kushma",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 545,
+    "fields": {
+      "name": "Phalewas",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 546,
+    "fields": {
+      "name": "Jaljala",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 547,
+    "fields": {
+      "name": "Modi",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 548,
+    "fields": {
+      "name": "Painyu",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 549,
+    "fields": {
+      "name": "Bihadi",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 550,
+    "fields": {
+      "name": "Mahashila",
+      "district": 45
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 551,
+    "fields": {
+      "name": "Gharpajhong",
+      "district": 46
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 552,
+    "fields": {
+      "name": "Thasang",
+      "district": 46
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 553,
+    "fields": {
+      "name": "Baragung Muktichhetra",
+      "district": 46
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 554,
+    "fields": {
+      "name": "Lomanthang",
+      "district": 46
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 555,
+    "fields": {
+      "name": "Lo-Thekar Damodarkunda",
+      "district": 46
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 556,
+    "fields": {
+      "name": "Kapilvastu",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 557,
+    "fields": {
+      "name": "Banganga",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 558,
+    "fields": {
+      "name": "Shivaraj",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 559,
+    "fields": {
+      "name": "Buddhabhumi",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 560,
+    "fields": {
+      "name": "Krishnanagar",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 561,
+    "fields": {
+      "name": "Maharajgunj",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 562,
+    "fields": {
+      "name": "Mayadevi",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 563,
+    "fields": {
+      "name": "Shuddhodhan",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 564,
+    "fields": {
+      "name": "Yasodhara",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 565,
+    "fields": {
+      "name": "Bijaynagar",
+      "district": 47
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 566,
+    "fields": {
+      "name": "Ramgram",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 567,
+    "fields": {
+      "name": "Sunwal",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 568,
+    "fields": {
+      "name": "Bardghat",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 569,
+    "fields": {
+      "name": "Triveni Susta",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 570,
+    "fields": {
+      "name": "Pratappur",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 571,
+    "fields": {
+      "name": "Sarawal",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 572,
+    "fields": {
+      "name": "Palhi Nandan",
+      "district": 48
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 573,
+    "fields": {
+      "name": "Butwal",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 574,
+    "fields": {
+      "name": "Tilottama",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 575,
+    "fields": {
+      "name": "Lumbini Sanskritik",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 576,
+    "fields": {
+      "name": "Siddharthanagar",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 577,
+    "fields": {
+      "name": "Sainamaina",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 578,
+    "fields": {
+      "name": "Devdaha",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 579,
+    "fields": {
+      "name": "Gaidhawa",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 580,
+    "fields": {
+      "name": "Mayadevi",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 581,
+    "fields": {
+      "name": "Kotahimai",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 582,
+    "fields": {
+      "name": "Marchawarimai",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 583,
+    "fields": {
+      "name": "Siyari",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 584,
+    "fields": {
+      "name": "Sammarimai",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 585,
+    "fields": {
+      "name": "Rohini",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 586,
+    "fields": {
+      "name": "Shuddhodhan",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 587,
+    "fields": {
+      "name": "Om Satiya",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 588,
+    "fields": {
+      "name": "Kanchan",
+      "district": 49
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 589,
+    "fields": {
+      "name": "Sitganga",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 590,
+    "fields": {
+      "name": "Sandhikharka",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 591,
+    "fields": {
+      "name": "Bhumikasthan",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 592,
+    "fields": {
+      "name": "Malarani",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 593,
+    "fields": {
+      "name": "Pandini",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 594,
+    "fields": {
+      "name": "Chhatradev",
+      "district": 50
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 595,
+    "fields": {
+      "name": "Musikot",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 596,
+    "fields": {
+      "name": "Resunga",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 597,
+    "fields": {
+      "name": "Satyawati",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 598,
+    "fields": {
+      "name": "Dhurkot",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 599,
+    "fields": {
+      "name": "Gulmi Durbar",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 600,
+    "fields": {
+      "name": "Madane",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 601,
+    "fields": {
+      "name": "Chandrakot",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 602,
+    "fields": {
+      "name": "Malika",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 603,
+    "fields": {
+      "name": "Chhatrakot",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 604,
+    "fields": {
+      "name": "Isma",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 605,
+    "fields": {
+      "name": "Kaligandaki",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 606,
+    "fields": {
+      "name": "Ruru",
+      "district": 51
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 607,
+    "fields": {
+      "name": "Tansen",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 608,
+    "fields": {
+      "name": "Rampur",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 609,
+    "fields": {
+      "name": "Rainadevi Chhahara",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 610,
+    "fields": {
+      "name": "Mathagadhi",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 611,
+    "fields": {
+      "name": "Nisdi",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 612,
+    "fields": {
+      "name": "Bagnaskali",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 613,
+    "fields": {
+      "name": "Rambha",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 614,
+    "fields": {
+      "name": "Purbakhola",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 615,
+    "fields": {
+      "name": "Tinau",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 616,
+    "fields": {
+      "name": "Ribdikot",
+      "district": 52
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 617,
+    "fields": {
+      "name": "Ghorahi",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 618,
+    "fields": {
+      "name": "Tulsipur",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 619,
+    "fields": {
+      "name": "Lamahi",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 620,
+    "fields": {
+      "name": "Rapti",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 621,
+    "fields": {
+      "name": "Gadhawa",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 622,
+    "fields": {
+      "name": "Babai",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 623,
+    "fields": {
+      "name": "Shantinagar",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 624,
+    "fields": {
+      "name": "Rajpur",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 625,
+    "fields": {
+      "name": "Banglachuli",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 626,
+    "fields": {
+      "name": "Dangisharan",
+      "district": 53
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 627,
+    "fields": {
+      "name": "Naubahini",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 628,
+    "fields": {
+      "name": "Jhimaruk",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 629,
+    "fields": {
+      "name": "Gaumukhi",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 630,
+    "fields": {
+      "name": "Airawati",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 631,
+    "fields": {
+      "name": "Sarumarani",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 632,
+    "fields": {
+      "name": "Mallarani",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 633,
+    "fields": {
+      "name": "Mandavi",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 634,
+    "fields": {
+      "name": "Pyuthan",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 635,
+    "fields": {
+      "name": "Swargadwari",
+      "district": 54
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 636,
+    "fields": {
+      "name": "Ropla",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 637,
+    "fields": {
+      "name": "Sunil Smriti",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 638,
+    "fields": {
+      "name": "Runtigadhi",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 639,
+    "fields": {
+      "name": "Lungri",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 640,
+    "fields": {
+      "name": "Triveni",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 641,
+    "fields": {
+      "name": "Paribartan",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 642,
+    "fields": {
+      "name": "Gangadev",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 643,
+    "fields": {
+      "name": "Madi",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 644,
+    "fields": {
+      "name": "Sunchhahari",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 645,
+    "fields": {
+      "name": "Thawang",
+      "district": 55
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 646,
+    "fields": {
+      "name": "Bhume",
+      "district": 56
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 647,
+    "fields": {
+      "name": "Putha Uttarganga",
+      "district": 56
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 648,
+    "fields": {
+      "name": "Sisne",
+      "district": 56
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 649,
+    "fields": {
+      "name": "Nepalgunj",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 650,
+    "fields": {
+      "name": "Kohalpur",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 651,
+    "fields": {
+      "name": "Raptisonari",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 652,
+    "fields": {
+      "name": "Baijnath",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 653,
+    "fields": {
+      "name": "Khajura",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 654,
+    "fields": {
+      "name": "Janaki",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 655,
+    "fields": {
+      "name": "Duduwa",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 656,
+    "fields": {
+      "name": "Narainapur",
+      "district": 57
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 657,
+    "fields": {
+      "name": "Barbardiya",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 658,
+    "fields": {
+      "name": "Gulariya",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 659,
+    "fields": {
+      "name": "Rajapur",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 660,
+    "fields": {
+      "name": "Bansgadhi",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 661,
+    "fields": {
+      "name": "Madhuwan",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 662,
+    "fields": {
+      "name": "Thakurbaba",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 663,
+    "fields": {
+      "name": "Badhaiyatal",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 664,
+    "fields": {
+      "name": "Geruwa",
+      "district": 58
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 665,
+    "fields": {
+      "name": "Aathabiskot",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 666,
+    "fields": {
+      "name": "Musikot",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 667,
+    "fields": {
+      "name": "Chaurjahari",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 668,
+    "fields": {
+      "name": "Sani Bheri",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 669,
+    "fields": {
+      "name": "Triveni",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 670,
+    "fields": {
+      "name": "Banphikot",
+      "district": 59
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 671,
+    "fields": {
+      "name": "Bangad Kupinde",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 672,
+    "fields": {
+      "name": "Bagchaur",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 673,
+    "fields": {
+      "name": "Shaarda",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 674,
+    "fields": {
+      "name": "Kumakh",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 675,
+    "fields": {
+      "name": "Kalimati",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 676,
+    "fields": {
+      "name": "Chhatreshwari",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 677,
+    "fields": {
+      "name": "Darma",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 678,
+    "fields": {
+      "name": "Kapurkot",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 679,
+    "fields": {
+      "name": "Triveni",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 680,
+    "fields": {
+      "name": "Siddha Kumakh",
+      "district": 60
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 681,
+    "fields": {
+      "name": "Tripurasundari",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 682,
+    "fields": {
+      "name": "Thuli Bheri",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 683,
+    "fields": {
+      "name": "Mudkechula",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 684,
+    "fields": {
+      "name": "Kaike",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 685,
+    "fields": {
+      "name": "She Phoksundo",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 686,
+    "fields": {
+      "name": "Jagadulla",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 687,
+    "fields": {
+      "name": "Dolpo Buddha",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 688,
+    "fields": {
+      "name": "Chharka Tongsong",
+      "district": 61
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 689,
+    "fields": {
+      "name": "Simkot",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 690,
+    "fields": {
+      "name": "Sarkegad",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 691,
+    "fields": {
+      "name": "Adanchuli",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 692,
+    "fields": {
+      "name": "Kharpunath",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 693,
+    "fields": {
+      "name": "Tanjakot",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 694,
+    "fields": {
+      "name": "Chankheli",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 695,
+    "fields": {
+      "name": "Namkha",
+      "district": 62
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 696,
+    "fields": {
+      "name": "Chandannath",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 697,
+    "fields": {
+      "name": "Tatopani",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 698,
+    "fields": {
+      "name": "Patarasi",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 699,
+    "fields": {
+      "name": "Tila",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 700,
+    "fields": {
+      "name": "Kanaka Sundari",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 701,
+    "fields": {
+      "name": "Sinja",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 702,
+    "fields": {
+      "name": "Hima",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 703,
+    "fields": {
+      "name": "Guthichaur",
+      "district": 63
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 704,
+    "fields": {
+      "name": "Khandachakra",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 705,
+    "fields": {
+      "name": "Raskot",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 706,
+    "fields": {
+      "name": "Tilagufa",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 707,
+    "fields": {
+      "name": "Narharinath",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 708,
+    "fields": {
+      "name": "Palata",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 709,
+    "fields": {
+      "name": "Shubha Kalika",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 710,
+    "fields": {
+      "name": "Sanni Triveni",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 711,
+    "fields": {
+      "name": "Pachaljharana",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 712,
+    "fields": {
+      "name": "Mahawai",
+      "district": 64
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 713,
+    "fields": {
+      "name": "Chhayanath Rara",
+      "district": 65
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 714,
+    "fields": {
+      "name": "Khatyad",
+      "district": 65
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 715,
+    "fields": {
+      "name": "Soru",
+      "district": 65
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 716,
+    "fields": {
+      "name": "Mugum Karmarong",
+      "district": 65
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 717,
+    "fields": {
+      "name": "Birendranagar",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 718,
+    "fields": {
+      "name": "Gurbhakot",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 719,
+    "fields": {
+      "name": "Bheriganga",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 720,
+    "fields": {
+      "name": "Panchapuri",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 721,
+    "fields": {
+      "name": "Lekbeshi",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 722,
+    "fields": {
+      "name": "Barahatal",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 723,
+    "fields": {
+      "name": "Simta",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 724,
+    "fields": {
+      "name": "Chaukune",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 725,
+    "fields": {
+      "name": "Chingad",
+      "district": 66
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 726,
+    "fields": {
+      "name": "Dullu",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 727,
+    "fields": {
+      "name": "Aathabis",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 728,
+    "fields": {
+      "name": "Narayan",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 729,
+    "fields": {
+      "name": "Chamunda Bindrasaini",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 730,
+    "fields": {
+      "name": "Gurans",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 731,
+    "fields": {
+      "name": "Bhairabi",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 732,
+    "fields": {
+      "name": "Naumule",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 733,
+    "fields": {
+      "name": "Mahabu",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 734,
+    "fields": {
+      "name": "Thantikandh",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 735,
+    "fields": {
+      "name": "Bhagwatimai",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 736,
+    "fields": {
+      "name": "Dungeshwar",
+      "district": 67
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 737,
+    "fields": {
+      "name": "Chhedagad",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 738,
+    "fields": {
+      "name": "Bheri",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 739,
+    "fields": {
+      "name": "Nalgad",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 740,
+    "fields": {
+      "name": "Junichande",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 741,
+    "fields": {
+      "name": "Kuse",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 742,
+    "fields": {
+      "name": "Barekot",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 743,
+    "fields": {
+      "name": "Shivalaya",
+      "district": 68
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 744,
+    "fields": {
+      "name": "Dhangadhi",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 745,
+    "fields": {
+      "name": "Godawari",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 746,
+    "fields": {
+      "name": "Tikapur",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 747,
+    "fields": {
+      "name": "Ghodaghodi",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 748,
+    "fields": {
+      "name": "Lamki Chuha",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 749,
+    "fields": {
+      "name": "Gauriganga",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 750,
+    "fields": {
+      "name": "Bhajani",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 751,
+    "fields": {
+      "name": "Janaki",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 752,
+    "fields": {
+      "name": "Kailari",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 753,
+    "fields": {
+      "name": "Joshipur",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 754,
+    "fields": {
+      "name": "Bargagoriya",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 755,
+    "fields": {
+      "name": "Mohanyal",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 756,
+    "fields": {
+      "name": "Chure",
+      "district": 69
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 757,
+    "fields": {
+      "name": "Saphebagar",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 758,
+    "fields": {
+      "name": "Mangalsen",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 759,
+    "fields": {
+      "name": "Panchadewal Binayak",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 760,
+    "fields": {
+      "name": "Kamalbazar",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 761,
+    "fields": {
+      "name": "Ramaroshan",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 762,
+    "fields": {
+      "name": "Chaurpati",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 763,
+    "fields": {
+      "name": "Turmakhand",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 764,
+    "fields": {
+      "name": "Mellekh",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 765,
+    "fields": {
+      "name": "Dhankari",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 766,
+    "fields": {
+      "name": "Bannigadi Jayagad",
+      "district": 70
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 767,
+    "fields": {
+      "name": "Dipayal Silgadhi",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 768,
+    "fields": {
+      "name": "Shikhar",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 769,
+    "fields": {
+      "name": "Aadarsha",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 770,
+    "fields": {
+      "name": "Purbichauki",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 771,
+    "fields": {
+      "name": "K.I. Singh",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 772,
+    "fields": {
+      "name": "Jorayal",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 773,
+    "fields": {
+      "name": "Sayal",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 774,
+    "fields": {
+      "name": "Bogatan",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 775,
+    "fields": {
+      "name": "Badikedar",
+      "district": 71
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 776,
+    "fields": {
+      "name": "Bungal",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 777,
+    "fields": {
+      "name": "Jaya Prithvi",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 778,
+    "fields": {
+      "name": "Kedarsyu",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 779,
+    "fields": {
+      "name": "Thalara",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 780,
+    "fields": {
+      "name": "Bitthadchir",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 781,
+    "fields": {
+      "name": "Chhabis Pathibhera",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 782,
+    "fields": {
+      "name": "Chhanna",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 783,
+    "fields": {
+      "name": "Masta",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 784,
+    "fields": {
+      "name": "Durgathali",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 785,
+    "fields": {
+      "name": "Talkot",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 786,
+    "fields": {
+      "name": "Surma",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 787,
+    "fields": {
+      "name": "Saipal",
+      "district": 72
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 788,
+    "fields": {
+      "name": "Budhiganga",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 789,
+    "fields": {
+      "name": "Budhinanda",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 790,
+    "fields": {
+      "name": "Tribeni",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 791,
+    "fields": {
+      "name": "Badimalika",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 792,
+    "fields": {
+      "name": "Khaptad Chhededaha",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 793,
+    "fields": {
+      "name": "Swami Kartik Khapar",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 794,
+    "fields": {
+      "name": "Jagannath",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 795,
+    "fields": {
+      "name": "Himali",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 796,
+    "fields": {
+      "name": "Gaumul",
+      "district": 73
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 797,
+    "fields": {
+      "name": "Bheemdatta",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 798,
+    "fields": {
+      "name": "Krishnapur",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 799,
+    "fields": {
+      "name": "Punarbas",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 800,
+    "fields": {
+      "name": "Belauri",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 801,
+    "fields": {
+      "name": "Bedkot",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 802,
+    "fields": {
+      "name": "Shuklaphanta",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 803,
+    "fields": {
+      "name": "Mahakali",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 804,
+    "fields": {
+      "name": "Laljhadi",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 805,
+    "fields": {
+      "name": "Beldandi",
+      "district": 74
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 806,
+    "fields": {
+      "name": "Parashuram",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 807,
+    "fields": {
+      "name": "Aamargadhi",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 808,
+    "fields": {
+      "name": "Navadurga",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 809,
+    "fields": {
+      "name": "Aalitaal",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 810,
+    "fields": {
+      "name": "Ganyapadhura",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 811,
+    "fields": {
+      "name": "Bhageshwar",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 812,
+    "fields": {
+      "name": "Ajaymeru",
+      "district": 75
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 813,
+    "fields": {
+      "name": "Purchaundi",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 814,
+    "fields": {
+      "name": "Dasharath Chand",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 815,
+    "fields": {
+      "name": "Patan",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 816,
+    "fields": {
+      "name": "Melauli",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 817,
+    "fields": {
+      "name": "Dogdakedar",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 818,
+    "fields": {
+      "name": "Dilashaini",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 819,
+    "fields": {
+      "name": "Sigas",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 820,
+    "fields": {
+      "name": "Pancheshwar",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 821,
+    "fields": {
+      "name": "Surnaya",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 822,
+    "fields": {
+      "name": "Shivanath",
+      "district": 76
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 823,
+    "fields": {
+      "name": "Shailyashikhar",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 824,
+    "fields": {
+      "name": "Mahakali",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 825,
+    "fields": {
+      "name": "Naugad",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 826,
+    "fields": {
+      "name": "Malikarjun",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 827,
+    "fields": {
+      "name": "Marma",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 828,
+    "fields": {
+      "name": "Lekam",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 829,
+    "fields": {
+      "name": "Duhu",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 830,
+    "fields": {
+      "name": "Byas",
+      "district": 77
+    }
+  },
+  {
+    "model": "address.Municipality",
+    "pk": 831,
+    "fields": {
+      "name": "Api Himal",
+      "district": 77
+    }
+  }
+]
