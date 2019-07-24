@@ -12,3 +12,14 @@ class ManageCategoryView(View):
 
     def get(self, request):
         return render(request, 'job/manage_category.html')
+
+
+class CreateCategoryView(View):
+
+    def get(self, request):
+        return render(request, 'job/category_form.html')
+
+class CreateJobView(View):
+
+    def get(self, request):
+        return render(request, 'job/job_form.html')

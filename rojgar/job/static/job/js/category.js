@@ -28,16 +28,17 @@ function CategoryViewModel(){
          console.log(data)
         var url = "http://127.0.0.1:4000/api/job/create_category"
         $.ajax({
-          type: "POST",
+          type: "post",
           url: url,
           data: data,
           contentType : 'application/json; charset=utf-8',
-          success: function(response){},
+          success: function(response){ self.loadCategory();},
           error : function(){}
 
         });
 
     }
+
     self.loadCategory();
     self.updateCategory = function(){}
 

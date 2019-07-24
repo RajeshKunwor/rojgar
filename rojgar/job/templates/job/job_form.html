@@ -1,0 +1,55 @@
+{% extends 'job/manage_job.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                     <h6 class="card-title bg-info text-white p-2">Create New Job</h6>
+                    <form>
+                      <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Job Title</th>
+                                <th>Photo</th>
+                                <th>Description</th>
+                                <th width="10%">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                        <!-- ko foreach: jobList -->
+                            <tr>
+                               <td>
+                                    <select data-bind="options: $root.oldCategoryList,
+                                                       optionsText: 'name',
+                                                       optionsValue: 'id',
+                                                       value: category,
+                                                       optionsCaption: 'Choose Category...'">
+                               </select></td>
+                                <td><input type="text" class="form-control"/></td>
+                                <td><input type="file" class="form-control-file border"/></td>
+                                <td><textarea></textarea></td>
+                                <td><button class="btn btn-sm" data-bind="click: $root.removeJob"><i class="fas fa-trash-alt text-danger"></i></button></td>
+                            </tr>
+                           <!-- /ko -->
+                          </tbody>
+                      </table>
+                      <button class="btn btn-secondary btn-sm" data-bind="click: addJob"><i class="fas fa-plus-circle"></i> Add new job</button>
+                      <hr>
+                        <button class="btn btn-success btn-sm float-right" data-bind="click: saveJob">
+                            <i class="fas fa-save"></i> Save</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script src="{% static 'js/jquery.js' %}"></script>
+ <script src="{% static 'js/knockout.js' %}"></script>
+ <script src="{% static 'job/js/job.js' %}"></script>
+{% endblock %}

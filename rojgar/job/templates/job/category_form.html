@@ -1,57 +1,51 @@
+{% extends 'job/manage_category.html' %}
 {% load static %}
- <!-- The Modal -->
-  <div class="modal fade" id="createCategory">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                     <h6 class="card-title bg-info text-white p-2">Create New Category</h6>
+                     <form>
 
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <h5 class="modal-title"><i class="fas fa-plus-circle"></i> Create Category</h5>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <table class="table table-bordered">
+                              <thead>
+                                <tr>
+                                    <th>Parent Category</th>
+                                    <th>New Category</th>
+                                    <th width="10%">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                            <!-- ko foreach: categoryList -->
+                                <tr>
+                                   <td>
+                                       <select data-bind="options: $root.oldCategoryList,
+                                                       optionsText: 'name',
+                                                       optionsValue: 'id',
+                                                       value: parent,
+                                                       optionsCaption: 'Choose Category...'"></select>
+                                                       </td>
+                                    <td><input type="text" data-bind="value: name" class="form-control"/></td>
+                                    <td><button class="btn btn-sm" data-bind="click: $root.removeCategory"><i class="fas fa-trash-alt text-danger"></i></button></td>
+                                </tr>
+                               <!-- /ko -->
+                              </tbody>
+                          </table>
+                          <button class="btn btn-secondary btn-sm" data-bind="click: addCategory"><i class="fas fa-plus-circle"></i> Add new category</button>
+                          <hr>
+                         <button class="btn btn-success btn-sm float-right" data-bind="click: saveCategory"><i class="fas fa-save"></i> Save</button>
+                     </form>
+                </div>
+              </div>
+            </div>
         </div>
-
-        <!-- Modal body -->
-        <div class="modal-body">
-          <form method="post" data-bind="submit: saveCategory">
-              <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                        <th>Parent Category</th>
-                        <th>New Category</th>
-                        <th width="10%">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                <!-- ko foreach: categoryList -->
-                    <tr>
-                       <td>
-                           <select data-bind="options: $root.oldCategoryList,
-                                           optionsText: 'name',
-                                           optionsValue: 'id',
-                                           value: parent,
-                                           optionsCaption: 'Choose Category...'"></select>
-                                           </td>
-                        <td><input type="text" data-bind="value: name" class="form-control"/></td>
-                        <td><button class="btn btn-sm" type="submit"><i class="fas fa-trash-alt text-danger"></i></button></td>
-                    </tr>
-                   <!-- /ko -->
-                  </tbody>
-              </table>
-              <button class="btn btn-secondary btn-sm" data-bind="click: addCategory"><i class="fas fa-plus-circle"></i> Add new category</button>
-            </form>
-        </div>
-
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button class="btn btn-success btn-sm" data-bind="click: saveCategory"><i class="fas fa-save"></i> Save</button>
-          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i class="fas fa-times-circle"></i> Close</button>
-        </div>
-
-      </div>
     </div>
-  </div>
+</div>
 
- <!--<script src="{% static 'js/jquery.js' %}"></script>-->
- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="{% static 'js/jquery.js' %}"></script>
  <script src="{% static 'js/knockout.js' %}"></script>
  <script src="{% static 'job/js/category.js' %}"></script>
+{% endblock %}
