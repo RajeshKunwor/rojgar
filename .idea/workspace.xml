@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ba4593-57f1-49a8-bfb3-b61ba40367bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rojgar/job/templates/job/category_modal_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rojgar/job/templates/job/job_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/static/job/js/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/static/job/js/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/static/job/js/job.js" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/static/job/js/job.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/templates/job/category_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/templates/job/category_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/templates/job/manage_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/templates/job/manage_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/templates/job/manage_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/templates/job/manage_job.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/job/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/rojgar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/rojgar/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/templates/dashboard.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +34,8 @@
       <file leaf-file-name="category_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/category_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="561">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -54,7 +43,7 @@
       <file leaf-file-name="job_form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/job_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="17">
               <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
@@ -63,7 +52,7 @@
       <file leaf-file-name="manage_job.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/manage_job.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
@@ -90,7 +79,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rojgar/job/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-439">
+            <state relative-caret-position="272">
               <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -337,12 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563900652135</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="job and category modified">
+      <created>1563986778197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563986778198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596726" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,7 +369,8 @@
     <MESSAGE value="job modified" />
     <MESSAGE value="api created for job." />
     <MESSAGE value="address app and fixture created" />
-    <option name="LAST_COMMIT_MESSAGE" value="address app and fixture created" />
+    <MESSAGE value="job and category modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="job and category modified" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rojgar/job/models.py">
@@ -561,9 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#305#314#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,9 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/job/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-439">
+        <state relative-caret-position="272">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -664,15 +651,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/manage_job.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
@@ -686,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/category_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="561">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -700,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/job/templates/job/job_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="17">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
