@@ -4,34 +4,75 @@
 {% block breadcrum %}
 <a href="{% url 'dashboard:admin_dashboard' %}">{{ block.super }}</a> / <a href="#">Manage Category</a>
 {% endblock %}
-
 {% block content %}
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-        <!-- Button to Open job category form -->
-      <!--<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#createCategory">-->
-      <a class="btn btn-primary btn-sm" href="{% url 'job:create_category' %}">
-        <i class="fas fa-plus-circle"></i> Create Category
-      </a>
-    </div>
-    <div class="col-md-8">
-       <h5>Category List</h5>
-    </div>
-  </div>
-  <hr>
-   <table class="table table-striped p-3">
-    <thead>
-      <tr>
-        <th>S.N.</th>
-        <th>Category</th>
-        <th>Job</th>
-      </tr>
-    </thead>
-    <tbody>
+<style>
+        .cate{
+            font-size: 16px;
+            font-weight: bold;
+           }
 
-    </tbody>
-  </table>
+</style>
+<link rel="stylesheet" href="{% static 'job/css/treetable.css' %}">
+<link rel="stylesheet" href="{% static 'job/css/treetable.theme.default.css' %}">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- Button to Open job category form -->
+            <!--<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#createCategory">-->
+            <a class="btn btn-primary btn-sm" href="{% url 'job:create_category' %}">
+                <i class="fas fa-plus-circle"></i> Create Category
+            </a>
+        </div>
+        <div class="col-md-8">
+            <h5>Category List</h5>
+        </div>
+    </div>
+    <hr>
+    <a href="#" onclick="jQuery('.advance').treetable('expandAll'); return false;">Expand all</a> |
+    <a href="#" onclick="jQuery('.advance').treetable('collapseAll'); return false;">Collapse all</a>
+    <table border="1" class="advance" id="mytable">
+        <thead>
+        <tr>
+            <th>Category</th>
+            <th>Job</th>
+        </tr>
+        </thead>
+        <tbody data-bind="template: { name: 'category_template', foreach: category }">
+
+        </tbody>
+    </table>
+
+    <script type="text/html" id="category_template">
+        <tr data-bind="attr: { 'data-tt-id' : id , 'data-tt-parent-id': parent }, css: { cate: parent == null}">
+            <td><a data-bind="click: $parent.updateCategory,text: name"></a></td>
+            <td>--</td>
+
+        </tr>
+        <!-- ko foreach: job_list -->
+        <!-- ko template: 'job_template' -->
+        <!-- /ko -->
+        <!-- /ko -->
+
+        <!-- ko foreach: category_list -->
+        <!-- ko template: 'category_template' -->
+        <!-- /ko -->
+        <!-- /ko -->
+
+    </script>
+    <script type="text/html" id="job_template">
+        <tr style=" color: blue;" data-bind="attr: { 'data-tt-id': id+'a', 'data-tt-parent-id': category }">
+            <td></td>
+            <td><a href="#" data-bind="text: name"></a></td>
+        </tr>
+    </script>
 </div>
 
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'job/js/treetable.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'job/js/category_list.js' %}"></script>
+<script>
+     $("#mytable").treetable({ expandable: true });
+     $(".advance").treetable({ expandable: true });
+</script>
 {% endblock %}

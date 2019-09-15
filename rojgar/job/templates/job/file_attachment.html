@@ -1,0 +1,8 @@
+{% load static %}
+<input type="number">
+<input type="file" data-bind="fileUpload: uploadFile">
+<br/>
+<br/>Selected file name: <span data-bind="text: uploadName"></span>
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'job/js/file_binding.js' %}"></script>

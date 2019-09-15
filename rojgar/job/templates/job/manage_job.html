@@ -1,15 +1,19 @@
 {% extends 'dashboard/admin_dashboard.html' %}
+{% load static %}
 <title>{% block title %} Manage-Job {% endblock %}</title>
 {% block breadcrum %}
 <a href="{% url 'dashboard:admin_dashboard' %}">{{ block.super }}</a> / <a href="#">Manage Job</a>
 {% endblock %}
 
 {% block content %}
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-       <!-- Button to Open job form -->
-      <!--<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#createJob">-->
       <a href="{% url 'job:create_job' %}" class="btn btn-primary btn-sm">
         <i class="fas fa-plus-circle"></i> Create Job
       </a>
@@ -20,20 +24,34 @@
     </div>
   </div>
   <hr>
-   <table class="table table-striped p-3">
-    <thead>
-      <tr>
-        <th>S.N.</th>
-        <th>Category</th>
-        <th>Job</th>
-      </tr>
-    </thead>
+   <table id="job-table" class="display" width="100%">
+       <thead>
+       <tr>
+           <th>S.N.</th>
+           <th>Job Title</th>
+           <th>Category</th>
+           <th>Description</th>
+           <th>Image</th>
+           <th>Action</th>
+       </tr>
+       </thead>
     <tbody>
-
+   <!-- ko foreach: jobList -->
+    <tr>
+        <td data-bind="text: $index()+1"></td>
+        <td data-bind="text: name"></td>
+        <td data-bind="text: category"></td>
+        <td data-bind="text: description"></td>
+        <td> <img data-bind="attr: { src: image }" width="50px"/></td>
+        <td><a class="btn btn-primary btn-sm text-white" data-bind="click: $root.updateJob">Update</a><a class=" ml-2 btn btn-danger btn-sm" href="#">Delete</a> </td>
+    </tr>
+       <!-- /ko -->
     </tbody>
-  </table>
+   </table>
+
 </div>
 
-<!--include create job-->
-{% include 'job/create_job.html' %}
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" defer></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'job/js/list_job.js' %}"></script>
 {% endblock %}

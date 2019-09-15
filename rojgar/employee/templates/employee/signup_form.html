@@ -1,0 +1,50 @@
+{% extends 'employee_manage.html' %}
+<title>{% block title %}Create Employee {% endblock %}</title>
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="card-deck">
+              <div class="card">
+                <div class="card-body">
+                     <h6 class="card-title bg-info text-white p-2">Create New Employee</h6>
+                    <form>
+                        <div class="form-group">
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" class="form-control" id="fullname"/>
+                        </div>
+                        <label>Gender:</label>
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="gender">Male
+                          </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="gender">Female
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-lable">Other
+                                <input type="radio" class="form-check-input" name="gender">
+                            </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="age"></label>
+                            <input type="number" class="form-check-input" id="age" name="age">Age
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

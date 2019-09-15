@@ -1,0 +1,31 @@
+{% extends 'dashboard.html' %}
+<title>{% block title %} Employee Manage {% endblock %}</title>
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="{% url 'employee:create_employee' %}" class="btn btn-primary btn-sm">
+        <i class="fas fa-plus-circle"></i> Create Employee
+      </a>
+    </div>
+    <div class="col-md-8">
+       <h5>Employee List</h5>
+    </div>
+  </div>
+  <hr>
+   <table class="table table-striped p-3">
+    <thead>
+      <tr>
+        <th>S.N.</th>
+        <th>Name</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

@@ -7,6 +7,10 @@ urlpatterns = [
     path('list_category', ListJobCategoryAPIView.as_view(), name='list_category'),
     path('list_job', ListJobAPIView.as_view(), name='list_job'),
     path('update_category', UpdateJobCategoryAPIView.as_view(), name='update_category'),
-    path('update_job', UpdateJobAPIView.as_view(), name='update_job')
+    path('update_job', UpdateJobAPIView.as_view(), name='update_job'),
+    path('list_categorys', ListCategoryAPIViews.as_view(), name='list_categorys'),
+    path('get_job', GetJob.as_view(), name='get_job'),
+
+
 ]
 

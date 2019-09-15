@@ -40,7 +40,7 @@ function CategoryViewModel(){
     }
 
     self.loadCategory();
-    self.updateCategory = function(){}
+
 
 }
 ko.applyBindings(new CategoryViewModel());

@@ -1,0 +1,44 @@
+{% extends 'job/manage_job.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 border p-2">
+            <h5 class="bg-info text-white p-2">Job Form</h5>
+            <form id="job-form">
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id= "category" class="form-control" data-bind="options: $root.oldCategoryList,
+                                                           optionsText: 'name',
+                                                           optionsValue: 'id',
+                                                           value: selectedCategory,
+                                                           optionsCaption: 'Choose Category...'">
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Job Title</span>
+                    </div>
+                    <input type="text" id="jobTitle"  data-bind="value: name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea class="form-control" rows="5" data-bind="value: description" id="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image:</label>
+                     <input type="file" id="image" class="form-control-file border">
+                </div>
+                <button class="btn btn-success btn-sm float-right" data-bind="click: saveJob">
+                    <i class="fas fa-save"></i> Save</button>
+                 <button class="btn btn-primary btn-sm float-right mr-3" data-bind="click: saveAndContinue">
+                            <i class="fas fa-save"></i> Save and continue</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+ <script src="{% static 'js/jquery.js' %}"></script>
+ <script src="{% static 'js/knockout.js' %}"></script>
+ <script src="{% static 'job/js/job.js' %}"></script>
+{% endblock %}
