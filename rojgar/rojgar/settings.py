@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'job',
     'address',
     'employee',
+    'home',
 
 
 ]

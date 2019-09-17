@@ -1,0 +1,5 @@
+{% extends 'home/base.html' %}
+<title>{% block title %} {{block.super}}:: Home{% endblock %}</title>
+{% block content %}
+{% include 'home/_body.html' %}
+{% endblock %}
