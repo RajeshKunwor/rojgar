@@ -1,36 +1,45 @@
 <nav class="navbar navbar-expand-md rojgar-navbar">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Rojgar</a>
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Rojgar</a>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{% url 'home:service' %}">Service</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link bg-primary" href="#">Login</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link bg-info" href="#">SignUp</a>
-      </li>
-    </ul>
-  </div>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'home:service' %}">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link bg-primary" href="#">Login</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-info" href="#" id="navbardrop" data-toggle="dropdown">
+                    Sign Up
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item text-dark" href="#">As Employee</a>
+                    <a class="dropdown-item text-dark" href="{% url 'user:customer_signup' %}">As Customer</a>
+
+                </div>
+            </li>
+
+        </ul>
+    </div>
 </nav>
 
 <script>
     $(document).on('click', 'ul li', function(){
         $(this).addClass('active').siblings().removeClass('active');
     });
+
 </script>

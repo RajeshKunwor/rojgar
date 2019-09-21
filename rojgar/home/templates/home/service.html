@@ -6,20 +6,20 @@
 <div class="container">
     <div class="row">
         <div class="col-md">
-            <h5 class="bg-info text-white p-2 m-2">Services</h5>
+
         </div>
     </div>
 </div>
 
 
-<div class="container" data-bind="template: { name: 'service_template', foreach: service }">
+<div class="container mt-2" data-bind="template: { name: 'service_template', foreach: service }">
 
 </div>
 
 <script type="text/html" id="service_template">
 <div class="row">
    <div class="col-md-2">
-    <h2 data-bind="text: name"></h2>
+    <h5 class="bg-info text-white p-2" data-bind="text: name"></h5>
    </div>
 
 </div>
