@@ -21,8 +21,8 @@ urlpatterns = [
     path('api/job/', include(('job.api_urls', 'job'), namespace='job_api')),
     path('dashboard/', include(('dashboard.urls', 'dashboard'), namespace='dashboard')),
     path('user/', include(('user.urls', 'user'), namespace='user')),
-    path('dashboard/employee/', include(('employee.urls', 'employee'), namespace='employee')),
     path('', include(('home.urls', 'home'), namespace='home')),
     path('api/home/', include(('home.api_urls', 'home'), namespace='home_api')),
+    path('employee/', include(('employee.urls', 'employee'), namespace='employee')),
 
 ]

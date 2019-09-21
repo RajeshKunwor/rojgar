@@ -1,0 +1,25 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'employee/css/employee_dashboard.css' %}"/>
+<div class="container-fluid">
+    <div class="sidebar">
+  <div class="image">
+      <img src="{% static 'employee/image/employee_icon.jpg ' %}" width="80px" height="80px" class="mx-auto d-block">
+      <b><p class="pt-2">Employee</p></b>
+      <p>Position</p>
+  </div>
+  <a class="active" href="#">Detail</a>
+  <a href="#">Request <span class="badge badge-info">New</span></a>
+  <a href="#">History</a>
+</div>
+
+<div class="content">
+
+</div>
+</div>
+
+
+
+
+{% endblock %}
