@@ -1,12 +1,53 @@
 {% extends 'home/base.html' %}
+{% load static %}
 <title>{% block title %}{{block.super}} :: Service{% endblock %}</title>
 {% block content %}
+<link rel="stylesheet" href="{% static 'home/css/service.css' %}"/>
 <div class="container">
     <div class="row">
         <div class="col-md">
             <h5 class="bg-info text-white p-2 m-2">Services</h5>
         </div>
     </div>
+</div>
+
+
+<div class="container" data-bind="template: { name: 'service_template', foreach: service }">
 
 </div>
+
+<script type="text/html" id="service_template">
+<div class="row">
+   <div class="col-md-2">
+    <h2 data-bind="text: name"></h2>
+   </div>
+
+</div>
+<div class="row">
+<!-- ko foreach: job_list -->
+    <!-- ko template: 'job_template' -->
+    <!-- /ko -->
+<!-- /ko -->
+</div>
+
+<!-- ko foreach: category_list -->
+    <!-- ko template: 'service_template' -->
+    <!-- /ko -->
+<!-- /ko -->
+
+</script>
+
+<script type="text/html" id="job_template">
+        <div class="col-md-2 bg-light rojgar-service">
+            <img class=" mx-auto d-block job-img" width="100px" height="100px" src="{% static 'home/image/job_img1.png' %}"/>
+            <a class="text-info" href="#" data-bind="text: name"></a>
+        </div>
+
+</script>
+
+
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'home/js/service.js' %}"></script>
+
 {% endblock %}
