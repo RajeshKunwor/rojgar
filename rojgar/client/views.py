@@ -5,12 +5,11 @@ from django.contrib.auth import login, authenticate
 from .models import *
 # Create your views here.
 
-class EmployeeDashboardView(View):
+class ClientDashboardView(View):
     def get(self, request):
-        return render(request, 'employee/employee_dashboard.html')
+        pass
 
-
-class RegisterEmployeeView(View):
+class RegisterClientView(View):
 
     def get(self, request):
         pass
@@ -27,13 +26,13 @@ class RegisterEmployeeView(View):
         municipality = request.POST.get('municipality')
         street = request.POST.get('street')
         user = User.objects.create_user(username=user_name,password=password1)
-        employee = Employee(full_name=full_name,mobile_number=mobile_number,email=email,
+        client = Client(full_name=full_name,mobile_number=mobile_number,email=email,
                             state=state,district=district,municipality=municipality,street=street)
-        employee.user = user
+        client.user = user
         group = Group.objects.get(name='employee')
         group.user_set.add(user)
         group.save()
-        employee.save()
+        client.save()
 
         authenticated_user = authenticate(username=user_name, password=password1)
         login(request, authenticated_user)
