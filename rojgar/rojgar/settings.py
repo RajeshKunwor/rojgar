@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'address',
     'employee',
     'home',
+    'client',
+    'servicerequest'
 
 
 ]

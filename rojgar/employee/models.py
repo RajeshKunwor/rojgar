@@ -42,3 +42,14 @@ class EmployeeHistory(models.Model):
     date = models.DateField()
     time = models.TimeField()
     description = models.TextField()
+
+
+class EmplyeeBio(models.Model):
+    employee = models.ForeignKey(Employee, related_name='employee_bio', on_delete=models.CASCADE)
+    education = models.TextField()
+    experience = models.TextField()
+    others = models.TextField()
+    file = models.FileField(upload_to='employee_bio', blank=True, null=True)
+
+    def __str__(self):
+        return f'{self.employee}|{self.education}'
