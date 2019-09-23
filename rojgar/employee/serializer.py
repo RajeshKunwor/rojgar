@@ -8,3 +8,9 @@ class EmployeeJobSerializer(serializers.ModelSerializer):
         model = EmployeeJob
         fields = '__all__'
 
+
+class EmployeeBioSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = EmployeeBio
+        fields = '__all__'

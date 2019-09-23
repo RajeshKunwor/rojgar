@@ -36,6 +36,37 @@ class ListEmployeeJobView(APIView):
         return Response(serializer.data)
 
 
+class CreateEmployeeBioView(APIView):
+
+    def post(self, request):
+        data = request.data
+        serializer = EmployeeBioSerializer(data=data, many=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"Response":"Successfully Saved."})
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class UpdateEmployeeBioView(APIView):
+
+    def put(self, request):
+        data = request.data
+        emp_bio_id = data['emp_bio_id']
+        emp_bio = EmployeeBio.objects.get(pk=emp_bio_id)
+        serializer = EmployeeBioSerializer(instance=emp_bio, data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response({"response": "Successfully Updated."})
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class ListEmployeeBioView(APIView):
+
+    def get(self, request):
+        emp_bio = EmployeeBio.objects.all()
+        serializer = EmployeeJobSerializer(emp_bio, many=True)
+        return Response(serializer.data)
+
 
 
 

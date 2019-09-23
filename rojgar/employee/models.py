@@ -44,7 +44,7 @@ class EmployeeHistory(models.Model):
     description = models.TextField()
 
 
-class EmplyeeBio(models.Model):
+class EmployeeBio(models.Model):
     employee = models.ForeignKey(Employee, related_name='employee_bio', on_delete=models.CASCADE)
     education = models.TextField()
     experience = models.TextField()
