@@ -17,17 +17,17 @@
                 <a class="nav-link" href="{% url 'home:service' %}">Service</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="{% url 'home:contact' %}">Contact Us</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link bg-primary" href="#">Login</a>
-            </li>
+           <li class="nav-item"> <a class="nav-link bg-primary text-white" data-toggle="modal" data-target="#myModal"
+                                     href="#" > Login</a>
+             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle bg-info" href="#" id="navbardrop" data-toggle="dropdown">
                     Sign Up
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item text-dark" href="#">As Employee</a>
+                    <a class="dropdown-item text-dark" href="{% url 'user:employee_signup' %}">As Employee</a>
                     <a class="dropdown-item text-dark" href="{% url 'user:customer_signup' %}">As Customer</a>
 
                 </div>

@@ -1,0 +1,111 @@
+{% extends 'home/base.html' %}
+<title> {% block title %} {{block.super}} :: Employee Signup {% endblock %} </title>
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">Sign Up for Employee</h5>
+                  <hr class="my-4">
+                <form class="form-signup">
+
+                <div class="form-group">
+                    <label>Full Name *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            </div>
+
+
+                    <input type="text" name="full_name" placeholder="Full Name " id="id_full_name" class="form-control"
+                           required="true" pattern="[A-Za-z]{1,20}" title="Full Name should only contain letters. e.g. Dhiraj Devkota, Rajesh Kunwor" maxlength="30">
+                <div class="id_full_name_error"></div>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label>User Name *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            </div>
+
+                    <input type="text" name="username" placeholder="Username" class="form-control" required="" id="id_username" maxlength="150">
+                    <div class="id_username_error"></div>
+                        </div>
+                </div>
+
+<!--                <div class="form-group">-->
+<!--                    <label>Phone Number *</label>-->
+<!--                        <div class="input-group mb-3">-->
+<!--                            <div class="input-group-prepend">-->
+<!--                     <span class="input-group-text"><i class="fas fa-phone-number"></i></span>-->
+<!--                             </div>-->
+
+<!--                    <input type="text" name="phone_number" placeholder="Phone Number " id="id_phone_number" class="form-control"-->
+<!--                           required="true" pattern="[0-9]{1,15}" title="Phone Number should only contain only numbers. e.g. 9862751725" maxlength="10">-->
+<!--                    <div class="id_phone_number_error"></div>-->
+<!--                        </div>-->
+<!--                </div>-->
+
+                <div class="form-group">
+                    <label>Email *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                            </div>
+                    <input type="email" name="email" placeholder="E-Mail" class="form-control" required="true" id="id_email" maxlength="254">
+                    <div class="id_email_error"></div>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Password *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                            </div>
+
+                    <input type="password" name="password1" placeholder="Password" class="form-control" required="" id="id_password1">
+                    <div class="id_password1_error"></div>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Confirm Password *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                            </div>
+
+                    <input type="password" name="password2" placeholder="Confirm Password" class="form-control" required="" id="id_password2">
+                    <div class="id_password2_error"></div>
+                        </div>
+                </div>
+
+                    <br>
+
+                <div class="more-option terms">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value id="candidate-agree">
+                        <label class="form-check-label" for="defaultCheck2">
+                            I accept the <a href="/pages/terms-and-conditions/">terms &amp; conditions</a>
+                        </label>
+                    </div>
+                </div>
+                    <br>
+                <button type="submit" style="background-color:#435df8;" class="btn btn-md button primary-bg btn-block">Register</button>
+                <button type="button" style="background-color:#dc3545;" class="btn btn-md button info-bg btn-block" data-dismiss="modal">Cancel</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
