@@ -23,7 +23,11 @@ class ListEmployeeServiceVeiw(APIView):
     def get(self, request):
         job_id = request.GET['job_id']
         emp_service = EmployeeJob.objects.filter(job_id=job_id)
-        serializer = EmployeeJobSerializer(emp_service,many=True)
-        return serializer.data
+        data = []
+        for e_s in emp_service:
+            data.append({'emp_id': e_s.id,'emp_name': e_s.employee.full_name, 'emp_mobile_number': e_s.employee.mobile_number,
+                         'emp_photo': e_s.employee.user.photo})
+        return Response(data)
+
 
 

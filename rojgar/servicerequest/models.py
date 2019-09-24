@@ -9,7 +9,6 @@ class ServiceRequest(models.Model):
     description = models.TextField()
     status = models.CharField(max_length=15, default='pending',null=True,blank=True)
 
-
     def __str__(self):
         return f'Service Request is sent to {self.employee} by {self.client}'
 

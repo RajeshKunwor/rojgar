@@ -68,5 +68,11 @@ class ListEmployeeBioView(APIView):
         return Response(serializer.data)
 
 
+class DetailEmployeeDetailView(APIView):
 
+    def get(self, request):
+        emp_id = request.GET['empId']
+        emp = Employee.objects.get(pk=emp_id)
+        serializer = EmployeeJobSerializer(emp)
+        return Response(serializer.data)
 
