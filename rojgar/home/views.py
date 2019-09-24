@@ -11,3 +11,9 @@ class ServiceView(View):
 
     def get(self, request):
         return render(request, 'home/service.html')
+
+
+class ContactView(View):
+
+    def get(self, request):
+        return render(request, 'home/contact.html')
