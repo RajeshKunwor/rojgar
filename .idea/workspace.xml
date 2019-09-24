@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54ba4593-57f1-49a8-bfb3-b61ba40367bc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/employee/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/employee/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/home/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/servicerequest/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/servicerequest/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/servicerequest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/servicerequest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/servicerequest/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/servicerequest/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/client/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/client/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +13,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rojgar/employee/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rojgar/client/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +93,6 @@
         <option value="$PROJECT_DIR$/rojgar/home/templates/home/_navbar.html" />
         <option value="$PROJECT_DIR$/rojgar/employee/templates/employee/employee_dashboard.html" />
         <option value="$PROJECT_DIR$/rojgar/employee/views.py" />
-        <option value="$PROJECT_DIR$/rojgar/client/models.py" />
         <option value="$PROJECT_DIR$/rojgar/client/views.py" />
         <option value="$PROJECT_DIR$/rojgar/rojgar/settings.py" />
         <option value="$PROJECT_DIR$/rojgar/servicerequest/templates/servicerequest/service_request_list.html" />
@@ -89,6 +106,7 @@
         <option value="$PROJECT_DIR$/rojgar/servicerequest/api_views.py" />
         <option value="$PROJECT_DIR$/rojgar/home/api_views.py" />
         <option value="$PROJECT_DIR$/rojgar/employee/api_views.py" />
+        <option value="$PROJECT_DIR$/rojgar/client/models.py" />
       </list>
     </option>
   </component>
@@ -120,13 +138,7 @@
               <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
               <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="servicerequest" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569292651963</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="api is created for service request">
+      <created>1569317639963</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569317639964</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -335,14 +354,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35620916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32843137" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,7 +415,8 @@
     <MESSAGE value="employee bio model is created" />
     <MESSAGE value="employee bio api model is created" />
     <MESSAGE value="employee_serivice frontend is created" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee_serivice frontend is created" />
+    <MESSAGE value="api is created for service request" />
+    <option name="LAST_COMMIT_MESSAGE" value="api is created for service request" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/__init__.py">
@@ -606,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/client/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/rojgar/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -679,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/employee/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/user/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -737,6 +740,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/employee/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/client/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
     </entry>
