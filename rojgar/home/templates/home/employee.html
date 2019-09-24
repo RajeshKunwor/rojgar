@@ -1,0 +1,16 @@
+{% extends 'home/base.html' %}
+{% load static %}
+<title>{% block title %}{{block.super}} :: Employee{% endblock %}</title>
+{% block content %}
+<link rel="stylesheet" href="{% static 'home/css/service.css' %}"/>
+<div class="container">
+    <div class="row">
+        <!-- ko foreach: employeeService -->
+        <div class="col-md-2 bg-light rojgar-service">
+            <img class=" mx-auto d-block job-img" width="100px" height="100px" src=""/>
+            <p>Mobile Number  Email</p>
+            <a class="btn btn-info" href="#">Detail</a>
+        </div>
+        <!-- /ko -->
+    </div>
+</div>
