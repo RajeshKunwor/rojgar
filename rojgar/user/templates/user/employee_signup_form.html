@@ -61,6 +61,53 @@
                         </div>
                 </div>
 
+                 <div class="form-group">
+                    <label>Address </label>
+                        <br>
+<!--                         <div class="col-sm-12 col-md-12 col-lg-15 mx-auto">-->
+                            <label>State *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                                </div>
+                                <select data-bind="options: stateList, optionsText: name,
+                                 optionValue: id, value: selectedState,
+                                 optionsCaption: 'Choose State...' "></select>
+
+                            </div>
+
+                            <label>District *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                                </div>
+                                <select></select>
+
+                            </div>
+
+                            <label>Municipality *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                                </div>
+
+                                 <select></select>
+                            </div>
+                            <label>Ward Number *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i> </span>
+                                </div>
+                                <input type="number" name="wardno" class="form-control" placeholder="Ward Number"/>
+                            </div>
+                            <label>Street *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i> </span>
+                                </div>
+                                <input type="text" name="street" class="form-control" placeholder="Street"/>
+                            </div>
+                 </div>
                 <div class="form-group">
                     <label>Password *</label>
                         <div class="input-group mb-3">
