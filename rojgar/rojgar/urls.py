@@ -24,5 +24,6 @@ urlpatterns = [
     path('', include(('home.urls', 'home'), namespace='home')),
     path('api/home/', include(('home.api_urls', 'home'), namespace='home_api')),
     path('employee/', include(('employee.urls', 'employee'), namespace='employee')),
+    path('address/', include(('address.urls', 'address'), namespace='address')),
 
 ]

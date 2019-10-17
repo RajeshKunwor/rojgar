@@ -10,12 +10,16 @@ function ViewModel(){
     self.selectedDistrict = ko.observable();
     self.selectedMunicipality = ko.observable();
 
+    var s_url = $("form").attr("data-s-url");
+    console.log(s_url)
+    var d_url = $("form").attr("data-d-url");
+    var m_url = $("form").attr("data-m-url");
 
-    $.get(url, function(data){
-//        console.log(data);
-        self.stateArray(data);
-        self.selectedState(state);
-//        self.selectedState(2);
+    $.get(s_url, function(data){
+     console.log(data);
+        self.stateList(data);
+//        self.selectedState(state);
+
 
     });
 
@@ -26,20 +30,20 @@ function ViewModel(){
             state = 0;
         }
 		$.get(d_url, {state: state}, function(data){
-			self.districtArray(data);
-			self.selectedDistrict(district);
+			self.districtList(data);
+//			self.selectedDistrict(district);
 		});
 	});
 
 
  ko.computed(function(){
 		var muni = Number(self.selectedDistrict());
-        if(isNaN(muni)){
-            muni = 0;
+        if(isNaN(district)){
+            district = 0;
         }
-		$.get(m_url, {district: muni}, function(data){
-			self.muniArray(data);
-			self.selectedMunicipality(municipality)
+		$.get(m_url, {district: district}, function(data){
+			self.municipalityList(data);
+//			self.selectedMunicipality(municipality)
 		});
 
 	});
