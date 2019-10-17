@@ -10,13 +10,12 @@ function ViewModel(){
     self.selectedDistrict = ko.observable();
     self.selectedMunicipality = ko.observable();
 
-    var s_url = $("form").attr("data-s-url");
-    console.log(s_url)
-    var d_url = $("form").attr("data-d-url");
-    var m_url = $("form").attr("data-m-url");
+    var s_url = $("#employee_signup_form").attr("data-s-url");
+    var d_url = $("#employee_signup_form").attr("data-d-url");
+    var m_url = $("#employee_signup_form").attr("data-m-url");
 
     $.get(s_url, function(data){
-     console.log(data);
+//     console.log(data);
         self.stateList(data);
 //        self.selectedState(state);
 
@@ -37,7 +36,7 @@ function ViewModel(){
 
 
  ko.computed(function(){
-		var muni = Number(self.selectedDistrict());
+		var district = Number(self.selectedDistrict());
         if(isNaN(district)){
             district = 0;
         }

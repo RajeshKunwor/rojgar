@@ -10,7 +10,7 @@
               <div class="card-body">
                 <h5 class="card-title text-center">Sign Up for Employee</h5>
                   <hr class="my-4">
-                <form class="form-signup" data-s-url="{% url 'address:load_state' %}"
+                <form class="form-signup" id="employee_signup_form" data-s-url="{% url 'address:load_state' %}"
                     data-d-url="{% url 'address:load_district' %}"
                     data-m-url="{% url 'address:load_municipality' %}"
                 >
@@ -74,8 +74,8 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
-                                <select data-bind="options: stateList, optionsText: name,
-                                 optionValue: id, value: selectedState,
+                                <select data-bind="options: stateList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedState,
                                  optionsCaption: 'Choose State...' "></select>
 
                             </div>
@@ -85,7 +85,9 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
-                                <select></select>
+                                <select data-bind="options: districtList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedDistrict,
+                                 optionsCaption: 'Choose District...' "></select>
 
                             </div>
 
@@ -95,7 +97,9 @@
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
 
-                                 <select></select>
+                                <select data-bind="options: municipalityList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedMunicipality,
+                                 optionsCaption: 'Choose Municipality...' "></select>
                             </div>
                             <label>Ward Number *</label>
                             <div class="input-group mb-3">
