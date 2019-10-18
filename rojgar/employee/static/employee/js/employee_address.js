@@ -10,9 +10,18 @@ function ViewModel(){
     self.selectedDistrict = ko.observable();
     self.selectedMunicipality = ko.observable();
 
+    self.fullName = ko.observable();
+    self.userName = ko.observable();
+    self.email = ko.observable();
+    self.password = ko.observable();
+    self.mobileNumber = ko.observable();
+    self.wardNumber = ko.observable();
+    self.street = ko.observable();
+
     var s_url = $("#employee_signup_form").attr("data-s-url");
     var d_url = $("#employee_signup_form").attr("data-d-url");
     var m_url = $("#employee_signup_form").attr("data-m-url");
+    var data_post_url = $("#employee_signup_form").attr("data_post_url");
 
     $.get(s_url, function(data){
 //     console.log(data);
@@ -48,13 +57,24 @@ function ViewModel(){
 	});
 
 	self.save = function(){
+        data = {'fullName': JSON.stringify(self.fullName()),
+                 'userName': JSON.stringify(self.userName()),
+                 'mobileNumber': JSON.stringify(self.mobileNumber()),
+                 'email': JSON.stringify(self.email()),
+                 'password': JSON.stringify(self.password()),
+                 'state': JSON.stringify(self.selectedState()),
+                 'district': JSON.stringify(self.selectedDistrict()),
+                 'municipality': JSON.stringify(self.selectedMunicipality()),
+                 'wardNumber': JSON.stringify(self.wardNumber()),
+                 'street': JSON.stringify(self.street())
 
-
-            $.ajax( post_url,{
- //	            console.log(self.selectedMunicipality, self.selectedDistrict,self.selectedState);
-
-                data: { id: self.selectedId, state: self.selectedState, district: self.selectedDistrict, muni: self.selectedMunicipality},
+               }
+               console.log(data)
+            $.ajax( data_post_url,{
+                data: data,
                 type: "post",
+                contentType: "application/json; charset=utf-8",
+                dataType: 'json',
                 success: function(response){alert(response.response);}
 
             });
