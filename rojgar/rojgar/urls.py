@@ -25,5 +25,6 @@ urlpatterns = [
     path('api/home/', include(('home.api_urls', 'home'), namespace='home_api')),
     path('employee/', include(('employee.urls', 'employee'), namespace='employee')),
     path('address/', include(('address.urls', 'address'), namespace='address')),
+    path('api/employee/', include(('employee.api_urls','employee'), namespace='employee_api')),
 
 ]

@@ -21,7 +21,8 @@ function ViewModel(){
     var s_url = $("#employee_signup_form").attr("data-s-url");
     var d_url = $("#employee_signup_form").attr("data-d-url");
     var m_url = $("#employee_signup_form").attr("data-m-url");
-    var data_post_url = $("#employee_signup_form").attr("data_post_url");
+    var data_post_url = $("#employee_signup_form").attr("data-post-url");
+    console.log(data_post_url)
 
     $.get(s_url, function(data){
 //     console.log(data);
@@ -57,21 +58,22 @@ function ViewModel(){
 	});
 
 	self.save = function(){
-        data = {'fullName': JSON.stringify(self.fullName()),
-                 'userName': JSON.stringify(self.userName()),
-                 'mobileNumber': JSON.stringify(self.mobileNumber()),
-                 'email': JSON.stringify(self.email()),
-                 'password': JSON.stringify(self.password()),
-                 'state': JSON.stringify(self.selectedState()),
-                 'district': JSON.stringify(self.selectedDistrict()),
-                 'municipality': JSON.stringify(self.selectedMunicipality()),
-                 'wardNumber': JSON.stringify(self.wardNumber()),
-                 'street': JSON.stringify(self.street())
+        employee_data = ko.toJSON({fullName: self.fullName,
+                 userName: self.userName,
+                 mobileNumber: self.mobileNumber,
+                 email: self.email,
+                 password: self.password,
+                 state: self.selectedState,
+                 district: self.selectedDistrict,
+                 municipality: self.selectedMunicipality,
+                 wardNumber: self.wardNumber,
+                 street: self.street
 
-               }
-               console.log(data)
+               })
+
+               console.log(employee_data)
             $.ajax( data_post_url,{
-                data: data,
+                data: employee_data,
                 type: "post",
                 contentType: "application/json; charset=utf-8",
                 dataType: 'json',
