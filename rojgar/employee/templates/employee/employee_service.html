@@ -1,0 +1,21 @@
+{% extends 'employee/employee_dashboard.html' %}
+{% block employee %}
+<div>
+    <button type="button" class="btn btn-primary m-2" data-toggle="modal" data-target="#service">
+    Add Service
+  </button>
+    <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+            <th>S.N.</th>
+            <th>Service</th>
+            <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    </div>
+</div>
+{% include 'employee/add_service.html' %}
+{% endblock %}

@@ -16,10 +16,10 @@ class CreateEmployeeJobView(APIView):
 
     def post(self, request):
         data = request.data
-        serializer = EmployeeJobSerializer(data=data, many=True)
+        serializer = EmployeeJobSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
-            return Response({"Response":"Successfully Added."})
+            return Response({"response":"Successfully Added."})
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 

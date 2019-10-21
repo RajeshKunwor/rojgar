@@ -46,5 +46,8 @@ class RegisterEmployeeView(View):
         return redirect('home:home')
 
 
+class EmployeeServiceView(View):
 
+    def get(self, request):
+        return render(request,'employee/employee_service.html')
 

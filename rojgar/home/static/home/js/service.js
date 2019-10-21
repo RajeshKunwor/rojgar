@@ -9,4 +9,5 @@ function ServiceViewModel(){
     }
     self.loadService();
 };
+
 ko.applyBindings(new ServiceViewModel());
