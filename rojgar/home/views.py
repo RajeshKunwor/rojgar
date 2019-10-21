@@ -17,3 +17,9 @@ class ContactView(View):
 
     def get(self, request):
         return render(request, 'home/contact.html')
+
+
+class ServiceEmployee(View):
+
+    def get(self, request):
+        return render(request, 'home/employee.html')

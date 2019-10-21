@@ -40,7 +40,7 @@
 <script type="text/html" id="job_template">
         <div class="col-md-2 bg-light rojgar-service">
             <img class=" mx-auto d-block job-img" width="100px" height="100px" src="{% static 'home/image/job_img1.png' %}"/>
-            <a class="text-info" href="#" data-bind="text: name"></a>
+            <a class="text-info" href="#"  data-bind="text: name, click: $root.loadEmployee"></a>
         </div>
 
 </script>
