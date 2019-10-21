@@ -99,6 +99,14 @@ function ViewModel(){
 
         });
     };
+
+
+    self.userName = ko.observable();
+    self.password = ko.observable();
+
+    self.login = function(){
+
+    }
  }
 
 ko.applyBindings(new ViewModel());

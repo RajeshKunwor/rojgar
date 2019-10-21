@@ -1,14 +1,22 @@
 function EmployeeServiceViewModel(){
     var self = this;
-    self.employeeId = ko.observable();
     self.employeeService = ko.observableArray();
     self.loadEmployeeService = function(){
-        var empId = self.employeeId();
-        $.get("",{emp_id: empId}, function(data){
+         var urlParams = new URLSearchParams(window.location.search);
+         var job_id = (urlParams.get('job_id'));
+        $.get("http://127.0.0.1:4000/api/home/list_employee", {'job_id': job_id}, function(data){
             console.log(data)
-            self.service(data);
+            self.employeeService(data);
         });
     }
     self.loadEmployeeService();
+
+
+    self.userName = ko.observable();
+    self.password = ko.observable();
+
+    self.login = function(){
+
+    }
 };
 ko.applyBindings(new EmployeeServiceViewModel());
