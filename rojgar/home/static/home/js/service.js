@@ -1,5 +1,6 @@
 function ServiceViewModel(){
     var self = this;
+
     self.service = ko.observableArray();
     self.loadService = function(){
         $.get("http://127.0.0.1:4000/api/home/list_service", function(data){
@@ -8,6 +9,14 @@ function ServiceViewModel(){
         });
     }
     self.loadService();
+
+    self.userName = ko.observable();
+    self.password = ko.observable();
+
+    self.login = function(){
+
+    }
+
 };
 
 ko.applyBindings(new ServiceViewModel());
