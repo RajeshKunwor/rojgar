@@ -31,3 +31,15 @@ class ListEmployeeServiceVeiw(APIView):
 
 
 
+class DetailEmployeeView(APIView):
+
+    def get(self, request):
+        emp_id = request.GET['emp_id']
+        emp = Employee.objects.get(pk=emp_id)
+        emp_address = emp.state.name + ','+ emp.district.name+','+emp.municipality.name+'-'+emp.ward_number+','+emp.street
+        data = []
+        data.append({'name': emp.full_name,
+                     'address': emp_address,
+                     'mobile_number': emp.mobile_number,
+                     'email': emp.email})
+        return Response(data)

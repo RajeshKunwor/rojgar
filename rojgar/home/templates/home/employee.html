@@ -10,7 +10,8 @@
             <img class=" mx-auto d-block job-img" width="100px" height="100px" src=""/>
             <p data-bind="text: emp_name"></p>
             <p data-bind="text: emp_mobile_number"></p>
-            <a class="btn btn-info" href="#">Detail</a>
+            <a class="btn btn-info" data-bind="click: $root.loadEmployeeDetail" href="#">Detail</a>
+            <a class="btn btn-primary" href="#">Request</a>
         </div>
         <!-- /ko -->
     </div>

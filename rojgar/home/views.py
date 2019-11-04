@@ -23,3 +23,9 @@ class ServiceEmployee(View):
 
     def get(self, request):
         return render(request, 'home/employee.html')
+
+
+class EmployeeDetail(View):
+
+    def get(self, request):
+        return render(request, 'home/employee_detail.html')
