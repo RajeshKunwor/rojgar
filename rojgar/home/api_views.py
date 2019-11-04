@@ -25,7 +25,7 @@ class ListEmployeeServiceVeiw(APIView):
         emp_service = EmployeeJob.objects.filter(job_id=job_id)
         data = []
         for e_s in emp_service:
-            data.append({'emp_id': e_s.id,'emp_name': e_s.employee.full_name, 'emp_mobile_number': e_s.employee.mobile_number,
+            data.append({'emp_id': e_s.employee.id,'emp_name': e_s.employee.full_name, 'emp_mobile_number': e_s.employee.mobile_number,
                          })
         return Response(data)
 
@@ -36,9 +36,10 @@ class DetailEmployeeView(APIView):
     def get(self, request):
         emp_id = request.GET['emp_id']
         emp = Employee.objects.get(pk=emp_id)
-        emp_address = emp.state.name + ','+ emp.district.name+','+emp.municipality.name+'-'+emp.ward_number+','+emp.street
-        data = []
-        data.append({'name': emp.full_name,
+        emp_address = str(emp.state.name) + ', '+ str(emp.district.name)\
+                      +', '+str(emp.municipality.name)+'-'+str(emp.ward_number)+', '+str(emp.street)
+
+        data=({'name': emp.full_name,
                      'address': emp_address,
                      'mobile_number': emp.mobile_number,
                      'email': emp.email})

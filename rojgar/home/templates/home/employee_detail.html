@@ -1,12 +1,26 @@
 {% extends 'home/base.html' %}
+{% load static %}
+<title>{% block title %}{{ block.super }}::Employee-Detail{% endblock %}</title>
+{% block content %}
 <div class="container">
     <div class="row">
+        <div class="col-md mt-3">
+            <p class="text-white bg-info p-2">Employee Detail</p>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md">
-        <p>Name: </p>
-        <p>Address: </p>
-        <p>Mobile Number: </p>
-         <p>Email: </p>
-        <p>BioData</p>
+            <p><b>Name:</b> <i data-bind="text: name"></i></p>
+            <p><b>Address:</b> <i data-bind="text: address"></i></p>
+            <p><b>Mobile Number:</b> <i data-bind="text: mobile_no"></i></p>
+            <p><b>Email:</b> <i data-bind="text: email"></i></p>
+            <p>BioData</p>
         </div>
     </div>
 </div>
+
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'home/js/employee_detail.js' %}"></script>
+
+{% endblock %}
