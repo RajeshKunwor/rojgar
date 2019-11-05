@@ -5,7 +5,32 @@
 <link rel="stylesheet" href="{% static 'home/css/service.css' %}"/>
 <div class="container">
     <div class="row">
+        <div class="col-md mt-2">
+            <h5 class="text-white bg-info p-2">List of Services</h5>
+        </div>
+
+    </div>
+    <div class="row">
         <div class="col-md">
+            <form id="search_employee"
+            data-d-url="{% url 'address:load_districts' %}">
+                <b>Search:</b>
+                <select data-bind="options: $root.serviceList,
+                                                           optionsText: 'name',
+                                                           optionsValue: 'id',
+                                                           value: selectedService,
+                                                           optionsCaption: 'Choose Service...'">
+                    </select>
+                <select  data-bind="options: districtList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedDistrict,
+                                 optionsCaption: 'Choose District...' ">
+
+                </select>
+
+
+                <a class="btn btn-success" data-bind="click: search" href="#">Search</a>
+            </form>
+
 
         </div>
     </div>

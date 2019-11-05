@@ -8,7 +8,7 @@ import json
 class LoadStateView(views.View):
 
 
-    def get(self, reqeust):
+    def get(self, request):
         state = State.objects.all().values()
 
         data = list(state)
@@ -29,6 +29,14 @@ class LoadDistrictView(views.View):
         data = list(district)
 
 
+        return JsonResponse(data, safe=False)
+
+
+class LoadDistrictView1(views.View):
+
+    def get(self, request):
+        district = District.objects.all().values()
+        data = list(district)
         return JsonResponse(data, safe=False)
 
 
