@@ -9,8 +9,9 @@
       <b><p class="pt-2">{{ user.username }}</p></b>
       <p>Position</p>
   </div>
-  <a class="active" href="#">Detail</a>
+  <a class="active" href="{% url 'employee:employee_detail' %}">Detail</a>
   <a href="{% url 'employee:employee_service' %}">Service</a>
+  <a href="{% url 'employee:employee_bio' %}">Bio Data</a>
   <a href="#">Request <span class="badge badge-info">New</span></a>
   <a href="#">History</a>
 </div>

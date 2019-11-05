@@ -12,6 +12,14 @@ class ListEmployeeView(APIView):
         return Response(serializer.data)
 
 
+class GetEmployeeView(APIView):
+
+    def get(self, request):
+        emp_id = request.GET['emp_id']
+        employee = Employee.objects.get(id=emp_id)
+        serializer = EmployeeSerializer(employee)
+        return Response(serializer.data)
+
 class CreateEmployeeJobView(APIView):
 
     def post(self, request):

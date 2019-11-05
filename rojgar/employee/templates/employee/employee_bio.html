@@ -1,0 +1,16 @@
+{% extends 'employee/employee_dashboard.html' %}
+{% block employee %}
+<div>
+    <button type="button" class="btn btn-primary m-2">
+    Add Bio
+  </button>
+
+</div>
+
+<div class="container">
+    <p>Education</p>
+    <p>Experience</p>
+    <p>Others</p>
+</div>
+{% include 'employee/add_service.html' %}
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'employee/employee_dashboard.html' %}
+{% load static %}
+{% block employee %}
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-4">
+            <form id="employee_update_form" data-s-url="{% url 'address:load_state' %}"
+                  data-d-url="{% url 'address:load_district' %}"
+                  data-m-url="{% url 'address:load_municipality' %}"
+
+            >
+                <input type="hidden" id="empId" value="{{ user.user_emp.id }}">
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" class="form-control" data-bind="value: fullName" id="fullname"/>
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Email *</label>
+                    <input type="text" class="form-control" data-bind="value: email" id="email"/>
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Mobile Number *</label>
+                    <input type="text" class="form-control" data-bind="value: mobileNumber" id="mobile"/>
+                </div>
+                <label>State *</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                    </div>
+                    <select class="form-control" data-bind="options: stateList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedState,
+                                 optionsCaption: 'Choose State...' "></select>
+
+                </div>
+
+                <label>District *</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                    </div>
+                    <select class="form-control" data-bind="options: districtList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedDistrict,
+                                 optionsCaption: 'Choose District...' "></select>
+
+                </div>
+
+                <label>Municipality *</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa-map-marker"></i></span>
+                    </div>
+
+                    <select class="form-control" data-bind="options: municipalityList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedMunicipality,
+                                 optionsCaption: 'Choose Municipality...' "></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullname">Ward Number</label>
+                    <input type="text" class="form-control" data-bind="value: wardNumber" id="ward_no"/>
+                </div>
+                <div class="form-group">
+                    <label for="fullname">Street</label>
+                    <input type="text" class="form-control" data-bind="value: street" id="street"/>
+                </div>
+                <a class="btn btn-success" href="#">Save</a>
+            </form>
+        </div>
+    </div>
+
+</div>
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'employee/js/update_employee.js' %}"></script>
+{% endblock %}

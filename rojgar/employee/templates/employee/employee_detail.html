@@ -1,0 +1,16 @@
+{% extends 'employee/employee_dashboard.html' %}
+{% block employee %}
+<div class="container mt-2">
+    <h4 class="bg-info text-white p-2">Your Detail</h4>
+    <p><b>Name: </b>{{ user.user_emp.full_name }}</p>
+    <p><b>Email: </b>{{ user.user_emp.email }}</p>
+    <p><b>Mobile Number:</b>{{ user.user_emp.mobile_number }}</p>
+    <p><b>State:</b>{{ user.user_emp.state.name }}</p>
+    <p><b>District: </b>{{ user.user_emp.district.name }}</p>
+    <p><b>Municipality: </b>{{ user.user_emp.municipality }} </p>
+    <p><b>Ward Number: </b> {{ user.user_emp.ward_number }}</p>
+    <p><b>Street:</b>{{ user.user_emp.street }}</p>
+    <a class="btn btn-primary" href="{% url 'employee:update_employee' %}">Update</a>
+</div>
+
+{% endblock %}

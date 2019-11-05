@@ -51,3 +51,20 @@ class EmployeeServiceView(View):
     def get(self, request):
         return render(request,'employee/employee_service.html')
 
+
+class EmployeeBioView(View):
+
+    def get(self, request):
+        return render(request, 'employee/employee_bio.html')
+
+
+class EmployeeDetailView(View):
+
+    def get(self, request):
+        return render(request, 'employee/employee_detail.html')
+
+
+class EmployeeUpdateView(View):
+
+    def get(self, request):
+        return render(request, 'employee/update_employee.html')

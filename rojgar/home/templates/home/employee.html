@@ -11,7 +11,9 @@
             <p data-bind="text: emp_name"></p>
             <p data-bind="text: emp_mobile_number"></p>
             <a class="btn btn-info" data-bind="click: $root.loadEmployeeDetail" href="#">Detail</a>
+            {% if user.is_authenticated %}
             <a class="btn btn-primary" href="#">Request</a>
+            {% endif %}
         </div>
         <!-- /ko -->
     </div>
