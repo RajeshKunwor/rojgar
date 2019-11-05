@@ -3,8 +3,8 @@ function ServiceViewModel(){
     self.service = ko.observableArray();
     self.serviceList = ko.observableArray();
     self.districtList = ko.observableArray();
-    self.selectedService = ko.observable();
-    self.selectedDistrict = ko.observable();
+    self.selectedService = ko.observable('0');
+    self.selectedDistrict = ko.observable('0');
 
     var d_url = $("#search_employee").attr("data-d-url");
 
@@ -26,11 +26,10 @@ function ServiceViewModel(){
     self.loadService();
 
     self.search = function(){
-        var service_id = self.selectedService();
+        var job_id = self.selectedService();
         var district_id = self.selectedDistrict();
-        $.get("", function(data){
+        window.open("http://127.0.0.1:4000/employee?job_id="+job_id+"&district_id="+district_id,'_self')
 
-        });
 
     }
     self.loadEmployee = function(obj){

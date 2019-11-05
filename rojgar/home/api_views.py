@@ -44,3 +44,20 @@ class DetailEmployeeView(APIView):
                      'mobile_number': emp.mobile_number,
                      'email': emp.email})
         return Response(data)
+
+
+class SearchEmployeeView(APIView):
+
+    def get(self, request):
+        job_id = request.GET['job_id']
+        district_id = request.GET['district_id']
+        emp_id = EmployeeJob.objects.filter(job_id=job_id).values('employee_id')
+        emp = Employee.objects.filter(district_id=district_id).filter(id__in=emp_id)
+        data = []
+        for e in emp:
+            data.append({'emp_id': e.id, 'emp_name': e.full_name,
+                         'emp_mobile_number': e.mobile_number})
+
+
+        return Response(data)
+

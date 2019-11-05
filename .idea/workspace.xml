@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ba4593-57f1-49a8-bfb3-b61ba40367bc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/rojgar/home/templates/home/employees.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/address/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/address/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/address/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/address/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/home/api_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/api_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/home/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/api_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rojgar/home/static/home/js/service.js" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/static/home/js/service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rojgar/home/templates/home/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/templates/home/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rojgar/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rojgar/home/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,26 +23,65 @@
       <file leaf-file-name="service.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/service.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="17">
               <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rojgar/address/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rojgar/home/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="136">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/employee.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rojgar/home/api_views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rojgar/home/api_urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rojgar/employee/static/employee/css/employee_dashboard.css" />
         <option value="$PROJECT_DIR$/rojgar/client/views.py" />
         <option value="$PROJECT_DIR$/rojgar/servicerequest/templates/servicerequest/service_request_list.html" />
         <option value="$PROJECT_DIR$/rojgar/servicerequest/models.py" />
@@ -113,22 +154,23 @@
         <option value="$PROJECT_DIR$/rojgar/home/static/home/js/service_employee.js" />
         <option value="$PROJECT_DIR$/rojgar/employee/static/employee/js/employee_address.js" />
         <option value="$PROJECT_DIR$/rojgar/user/templates/user/employee_signup_form.html" />
-        <option value="$PROJECT_DIR$/rojgar/home/api_urls.py" />
-        <option value="$PROJECT_DIR$/rojgar/home/views.py" />
-        <option value="$PROJECT_DIR$/rojgar/home/urls.py" />
         <option value="$PROJECT_DIR$/rojgar/home/templates/home/employee.html" />
-        <option value="$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js" />
         <option value="$PROJECT_DIR$/rojgar/home/static/home/js/employee_detail.js" />
         <option value="$PROJECT_DIR$/rojgar/home/templates/home/employee_detail.html" />
-        <option value="$PROJECT_DIR$/rojgar/home/api_views.py" />
         <option value="$PROJECT_DIR$/rojgar/address/urls.py" />
         <option value="$PROJECT_DIR$/rojgar/address/views.py" />
         <option value="$PROJECT_DIR$/rojgar/home/templates/home/service.html" />
+        <option value="$PROJECT_DIR$/rojgar/home/api_urls.py" />
+        <option value="$PROJECT_DIR$/rojgar/home/views.py" />
+        <option value="$PROJECT_DIR$/rojgar/home/templates/home/employees.html" />
+        <option value="$PROJECT_DIR$/rojgar/home/urls.py" />
+        <option value="$PROJECT_DIR$/rojgar/home/api_views.py" />
         <option value="$PROJECT_DIR$/rojgar/home/static/home/js/service.js" />
+        <option value="$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="803" />
     <option name="width" value="563" />
     <option name="height" value="389" />
@@ -139,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,37 +197,7 @@
               <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
               <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="address" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="rojgar" type="462c0819:PsiDirectoryNode" />
               <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rojgar_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="rojgar" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="employee" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rojgar_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -258,6 +269,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -537,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572865522418</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="search employee is created">
+      <created>1572921058029</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1572921058029</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -550,7 +569,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
@@ -558,7 +577,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49925596" weight="0.35620916" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49925596" visible="true" weight="0.35620916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -573,22 +592,22 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49925596" visible="true" weight="0.35620916" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23883928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.35620916" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -599,7 +618,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="requirement add" />
     <MESSAGE value="job modified" />
     <MESSAGE value="api created for job." />
     <MESSAGE value="address app and fixture created" />
@@ -624,14 +642,10 @@
     <MESSAGE value="service employee is modified" />
     <MESSAGE value="employee detail is created" />
     <MESSAGE value="employee detail is modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee detail is modified" />
+    <MESSAGE value="search employee is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="search employee is created" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rojgar/employee/templates/employee/signup_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/address/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -825,37 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/api_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/employee_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -863,31 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/employee/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/employee_detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rojgar/home/api_urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -928,22 +890,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/address/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="153">
           <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/employee/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/api_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="17">
           <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/employees.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/api_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/templates/home/employee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="102">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rojgar/home/static/home/js/employee_service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
