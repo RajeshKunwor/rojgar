@@ -28,6 +28,11 @@ function EmployeeServiceViewModel(){
         window.open("http://127.0.0.1:4000/employee_detail?emp_id="+emp_id,'_self')
     }
 
+    self.requestEmployee = function(obj){
+        var emp_id = obj.emp_id
+        window.open("http://127.0.0.1:4000/servicerequest/create_service_request?emp_id="+emp_id,'_self')
+    }
+
     self.userName = ko.observable();
     self.password = ko.observable();
 

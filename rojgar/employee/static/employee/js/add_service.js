@@ -21,7 +21,9 @@ function EmployeeServiceModelView(){
             type: 'post',
             contentType: "application/json; charset=utf-8",
             dataType: 'json',
-            success: function(response){ alert(response.response)}
+            success: function(response){ alert(response.response)
+            window.open("http://127.0.0.1:4000/employee/employee_service")
+            }
        });
 
     }

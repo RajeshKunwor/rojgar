@@ -39,7 +39,7 @@ class Login(View):
                     return JsonResponse({"response":"http://127.0.0.1:4000/employee/employee_dashboard"})
 
                 elif hasGroup(request.user, 'client'):
-                    return render(request, 'client/client_dashboard.html')
+                    return JsonResponse({"response": 'http://127.0.0.1:4000/client/client_dashboard'})
 
                 elif hasGroup(request.user, 'admin'):
                    return JsonResponse({"response":"http://127.0.0.1:4000/dashboard/admin"})

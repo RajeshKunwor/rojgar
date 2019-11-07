@@ -8,4 +8,5 @@ urlpatterns = [
     path('employee_bio', EmployeeBioView.as_view(), name='employee_bio'),
     path('employee_detail', EmployeeDetailView.as_view(), name='employee_detail'),
     path('update_employee', EmployeeUpdateView.as_view(), name='update_employee'),
+    path('add_service', AddServiceView.as_view(), name='add_service'),
 ]

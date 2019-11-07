@@ -7,18 +7,16 @@
   <div class="image">
       <img src="{% static 'employee/image/employee_icon.jpg ' %}" width="80px" height="80px" class="mx-auto d-block">
       <b><p class="pt-2">{{ user.username }}</p></b>
-      <p>Employee</p>
+      <p>Client</p>
   </div>
-  <a class="active" href="{% url 'employee:employee_detail' %}">Detail</a>
-  <a href="{% url 'employee:employee_service' %}">Service</a>
-  <a href="{% url 'employee:employee_bio' %}">Bio Data</a>
-  <a href="{% url 'servicerequest:employee_list_service_request' %}">Request <span class="badge badge-info">New</span></a>
+  <a class="active" href="#">Detail</a>
+  <a href=" {% url 'servicerequest:client_list_service_request' %}">My Request</a>
   <a href="#">History</a>
 </div>
 
 <div class="content">
-{% block employee %}
-Employee
+{% block client %}
+    Client
 {% endblock %}
 </div>
 </div>

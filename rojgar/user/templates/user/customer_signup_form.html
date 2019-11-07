@@ -1,15 +1,20 @@
 {% extends 'home/base.html' %}
-<title> {% block title %} {{block.super}} :: Customer Signup {% endblock %} </title>
+{% load static %}
+<title> {% block title %} {{block.super}} :: Client Signup {% endblock %} </title>
 
 {% block content %}
- <div class="container">
+    <div class="container">
         <div class="row">
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card card-signin my-5">
               <div class="card-body">
-                <h5 class="card-title text-center">Sign Up for Customer</h5>
+                <h5 class="card-title text-center">Sign Up for Client</h5>
                   <hr class="my-4">
-                <form class="form-signup">
+                <form class="form-signup" id="client_signup_form" data-s-url="{% url 'address:load_state' %}"
+                    data-d-url="{% url 'address:load_district' %}"
+                    data-m-url="{% url 'address:load_municipality' %}"
+                    data-post-url="{% url 'client:register_client' %}"
+                >
 
                 <div class="form-group">
                     <label>Full Name *</label>
@@ -19,7 +24,7 @@
                             </div>
 
 
-                    <input type="text" name="full_name" placeholder="Full Name " id="id_full_name" class="form-control"
+                    <input type="text" data-bind="value: fullName" name="full_name" placeholder="Full Name " id="id_full_name" class="form-control"
                            required="true" pattern="[A-Za-z]{1,20}" title="Full Name should only contain letters. e.g. Dhiraj Devkota, Rajesh Kunwor" maxlength="30">
                 <div class="id_full_name_error"></div>
                         </div>
@@ -32,23 +37,36 @@
                      <span class="input-group-text"><i class="fa fa-user"></i></span>
                             </div>
 
-                    <input type="text" name="username" placeholder="Username" class="form-control" required="" id="id_username" maxlength="150">
+                    <input type="text" name="username" data-bind="value: userName" placeholder="Username" class="form-control" required="" id="id_username" maxlength="150">
                     <div class="id_username_error"></div>
                         </div>
                 </div>
 
-                    <div class="form-group">
+                <div class="form-group">
+                    <label>Mobile Number *</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                     <span class="input-group-text"><i class="fas fa-phone-number"></i></span>
+                             </div>
+
+                    <input type="text" data-bind="value: mobileNumber" name="mobile_number" placeholder="Phone Number " id="id_phone_number" class="form-control"
+                           required="true" pattern="[0-9]{1,15}" title="Phone Number should only contain only numbers. e.g. 9862751725" maxlength="10">
+                    <div class="id_phone_number_error"></div>
+                        </div>
+                </div>
+
+                <div class="form-group">
                     <label>Email *</label>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                      <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                             </div>
-                    <input type="email" name="email" placeholder="E-Mail" class="form-control" required="true" id="id_email" maxlength="254">
+                    <input type="email" name="email" data-bind="value: email" placeholder="E-Mail" class="form-control" required="true" id="id_email" maxlength="254">
                     <div class="id_email_error"></div>
                         </div>
                 </div>
 
-                    <div class="form-group">
+                 <div class="form-group">
                     <label>Address </label>
                         <br>
 <!--                         <div class="col-sm-12 col-md-12 col-lg-15 mx-auto">-->
@@ -57,9 +75,10 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
+                                <select class="form-control" data-bind="options: stateList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedState,
+                                 optionsCaption: 'Choose State...' "></select>
 
-                                <input type="text" name="state" placeholder="State" class="form-control" required="" id="id_state" maxlength="150">
-                                <div class="id_state_error"></div>
                             </div>
 
                             <label>District *</label>
@@ -67,9 +86,10 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
+                                <select class="form-control" data-bind="options: districtList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedDistrict,
+                                 optionsCaption: 'Choose District...' "></select>
 
-                                    <input type="text" name="district" placeholder="District" class="form-control" required="" id="id_district" maxlength="150">
-                                     <div class="id_district_error"></div>
                             </div>
 
                             <label>Municipality *</label>
@@ -78,44 +98,25 @@
                                     <span class="input-group-text"><i class="fa-map-marker"></i></span>
                                 </div>
 
-                                 <input type="text" name="municipality" placeholder="Municipality" class="form-control" required="" id="id_municipality" maxlength="150">
-                                    <div class="id_municipality_error"></div>
+                                <select class="form-control" data-bind="options: municipalityList, optionsText: 'name',
+                                 optionsValue: 'id', value: selectedMunicipality,
+                                 optionsCaption: 'Choose Municipality...' "></select>
                             </div>
-
-                </div>
-
-
-                <div class="form-group">
-                    <label>Phone Number *</label>
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text"><i class="fas fa-phone-alt"></i></span>
+                            <label>Ward Number *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i> </span>
+                                </div>
+                                <input type="number" data-bind="value: wardNumber" name="wardno" class="form-control" placeholder="Ward Number"/>
                             </div>
-
-                    <input type="text" name="phone_number" placeholder="Phone Number " id="id_phone_number" class="form-control"
-                           required="true" pattern="[0-9]{1,15}" title="Phone Number should only contain only numbers. e.g. 9862751725" maxlength="10">
-                    <div class="id_phone_number_error"></div>
-                        </div>
-                </div>
-
-                    <div class="form-group">
-                    <label>Gender *</label>
-                        <br>
-                          <input type="radio" name="gender" value="male" checked> Male<br>
-                          <input type="radio" name="gender" value="female"> Female<br>
-                          <input type="radio" name="gender" value="other"> Other
-<!--                        <input type="radio" name="gender" id="male" checked>-->
-<!--                        <label for="m">Male</label>-->
-
-<!--                         <input type="radio" name="gender" id="female">-->
-<!--                        <label for="f">Female</label>-->
-
-<!--                         <input type="radio" name="gender" id="other">-->
-<!--                        <label for="o">Other</label>-->
-                    </div>
-
-
-
+                            <label>Street *</label>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa-map-marker"></i> </span>
+                                </div>
+                                <input type="text" data-bind="value: street" name="street" class="form-control" placeholder="Street"/>
+                            </div>
+                 </div>
                 <div class="form-group">
                     <label>Password *</label>
                         <div class="input-group mb-3">
@@ -123,7 +124,7 @@
                      <span class="input-group-text"><i class="fa fa-lock"></i></span>
                             </div>
 
-                    <input type="password" name="password1" placeholder="Password" class="form-control" required="" id="id_password1">
+                    <input type="password" name="password1" data-bind="value: password" placeholder="Password" class="form-control" required="" id="id_password1">
                     <div class="id_password1_error"></div>
                         </div>
                 </div>
@@ -151,7 +152,7 @@
                     </div>
                 </div>
                     <br>
-                <button type="submit" style="background-color:#435df8;" class="btn btn-md button primary-bg btn-block">Register</button>
+                <button data-bind="click: save" style="background-color:#435df8;" class="btn btn-md button primary-bg btn-block">Register</button>
                 <button type="button" style="background-color:#dc3545;" class="btn btn-md button info-bg btn-block" data-dismiss="modal">Cancel</button>
                 </form>
               </div>
@@ -160,4 +161,11 @@
         </div>
     </div>
 
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'client/js/client.js' %}"></script>
 {% endblock %}
+
+
+
+

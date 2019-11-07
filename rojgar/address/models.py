@@ -43,7 +43,7 @@ class Municipality(models.Model):
         ordering = ['name']
 
     def __str__(self):
-        return f'{self.district}|{self.name}'
+        return f'{self.name}'
 
 
 class Ward(models.Model):

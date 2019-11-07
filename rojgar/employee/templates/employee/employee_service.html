@@ -1,21 +1,32 @@
 {% extends 'employee/employee_dashboard.html' %}
+{%load static %}
 {% block employee %}
 <div>
-    <button type="button" class="btn btn-primary m-2" data-toggle="modal" data-target="#service">
+    <a href="{% url 'employee:add_service' %}" class="btn btn-primary m-2">
     Add Service
-  </button>
+  </a>
     <div class="table-responsive">
+        <input type="hidden"  id="empId" value="{{ user.user_emp.id }}">
     <table class="table table-bordered">
       <thead>
         <tr>
             <th>S.N.</th>
             <th>Service</th>
-            <th>Action</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody>
+      <!-- ko foreach: empService -->
+        <tr>
+            <td data-bind="text: $index()+1"></td>
+            <td data-bind="text: service_name"></td>
+        </tr>
+      <!-- /ko -->
+      </tbody>
     </table>
     </div>
 </div>
-{% include 'employee/add_service.html' %}
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'employee/js/employee_service.js' %}"></script>
+
 {% endblock %}

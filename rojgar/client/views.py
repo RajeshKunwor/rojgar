@@ -2,12 +2,15 @@ from django.shortcuts import render,redirect
 from django.views import View
 from django.contrib.auth.models import Group, User
 from django.contrib.auth import login, authenticate
+from django.contrib.auth.decorators import login_required
 from .models import *
+import json
 # Create your views here.
 
 class ClientDashboardView(View):
+
     def get(self, request):
-        pass
+       return render(request, 'client/client_dashboard.html')
 
 class RegisterClientView(View):
 
@@ -15,27 +18,33 @@ class RegisterClientView(View):
         pass
 
     def post(self, request):
-        user_name = request.POST.get('user_name')
-        password1 = request.POST.get('password')
-        password2 = request.POST.get('password2')
-        full_name = request.POST.get('full_name')
-        mobile_number = request.POST.get('mobile_number')
-        email = request.POST.get('email')
-        state = request.POST.get('state')
-        district = request.POST.get('district')
-        municipality = request.POST.get('municipality')
-        street = request.POST.get('street')
+        data = request.body.decode('UTF-8')
+        emp_data = json.loads(data)
+        print(emp_data)
+        user_name = emp_data.get('userName')
+        password1 = emp_data.get('password')
+        # password2 = emp_data.get('password2')
+        full_name = emp_data.get('fullName')
+        mobile_number = emp_data.get('mobileNumber')
+        email = emp_data.get('email')
+        state = emp_data.get('state')
+        district = emp_data.get('district')
+        municipality = emp_data.get('municipality')
+        ward_number = emp_data.get('wardNumber')
+        street = emp_data.get('street')
         user = User.objects.create_user(username=user_name,password=password1)
         client = Client(full_name=full_name,mobile_number=mobile_number,email=email,
-                            state=state,district=district,municipality=municipality,street=street)
+                            state_id=state,district_id=district,municipality_id=municipality, ward_number=ward_number,street=street)
         client.user = user
-        group = Group.objects.get(name='employee')
+        group = Group.objects.get(name='client')
         group.user_set.add(user)
         group.save()
         client.save()
 
         authenticated_user = authenticate(username=user_name, password=password1)
         login(request, authenticated_user)
+        if next:
+            return render(request, 'client/client_dashboard.html')
         return redirect('home:home')
 
 

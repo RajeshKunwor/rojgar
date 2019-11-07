@@ -1,0 +1,46 @@
+{% extends 'employee/employee_dashboard.html' %}
+
+{% load static %}
+<title>{% block title %}{{ block.super }}::Service Request{% endblock %}</title>
+{% block employee %}
+<input type="hidden"  id="empId"  value="{{ user.user_emp.id }}">
+<div class="container">
+    <div class="row">
+        <div class="col-md mt-3">
+            <p class="text-white bg-info p-2">Service Request</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Client Name</th>
+                        <th>Client Address</th>
+                        <th>Client Contact</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- ko foreach: serviceRequestList -->
+                    <tr>
+                        <td data-bind="text: client_name"></td>
+                        <td data-bind="text: client_address"></td>
+                        <td data-bind="text: client_contact"><td>
+                        <td data-bind="text: description"></td>
+                        <td><a class="btn btn-success"  data-bind="click: $root.confirm" href="#">Confirm</a>
+                            </td>
+                    </tr>
+                    <!-- /ko -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/knockout.js' %}"></script>
+    <script src="{% static 'servicerequest/js/employee_list_servicerequest.js' %}"></script>
+
+    {% endblock %}

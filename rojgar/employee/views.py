@@ -3,6 +3,7 @@ from django.views import View
 from django.contrib.auth.models import Group, User
 from django.contrib.auth import login, authenticate
 from .models import *
+from django.http import JsonResponse
 import json
 from rest_framework.views import APIView
 # Create your views here.
@@ -41,8 +42,10 @@ class RegisterEmployeeView(View):
         group.save()
         employee.save()
 
-        # authenticated_user = authenticate(username=user_name, password=password1)
-        # login(request, authenticated_user)
+        authenticated_user = authenticate(username=user_name, password=password1)
+        login(request, authenticated_user)
+        if next:
+            return render(request, 'employee/employee_dashboard.html')
         return redirect('home:home')
 
 
@@ -68,3 +71,9 @@ class EmployeeUpdateView(View):
 
     def get(self, request):
         return render(request, 'employee/update_employee.html')
+
+
+class AddServiceView(View):
+
+    def get(self, request):
+        return render(request, 'employee/add_service.html')

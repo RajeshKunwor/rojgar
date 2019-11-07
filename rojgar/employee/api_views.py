@@ -92,3 +92,14 @@ class DetailEmployeeDetailView(APIView):
         serializer = EmployeeJobSerializer(emp)
         return Response(serializer.data)
 
+
+class GetEmployeeServiceView(APIView):
+
+    def get(self, request):
+        emp_id = request.GET['emp_id']
+        emp_service = EmployeeJob.objects.filter(employee_id=emp_id)
+        data = []
+        for es in emp_service:
+            data.append({'service_name':es.job.name})
+
+        return Response(data)

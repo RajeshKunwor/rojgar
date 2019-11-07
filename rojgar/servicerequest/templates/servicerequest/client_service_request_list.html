@@ -1,0 +1,45 @@
+{% extends 'client/client_dashboard.html' %}
+
+{% load static %}
+<title>{% block title %}{{ block.super }}::Service Request{% endblock %}</title>
+{% block client %}
+<input type="hidden"  id="userId"  value="{{ user.user_client.id }}">
+<div class="container">
+    <div class="row">
+        <div class="col-md mt-3">
+            <p class="text-white bg-info p-2">Service Request</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Employee Name</th>
+                        <th>Employee Address</th>
+                        <th>Employee Contact</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- ko foreach: serviceRequestList -->
+                    <tr>
+                        <td data-bind="text: employee_name"></td>
+                        <td data-bind="text: employee_address"></td>
+                        <td data-bind="text: employee_contact"></td>
+                        <td data-bind="text: description"></td>
+                        <td data-bind="text: status"></td>
+                    </tr>
+                    <!-- /ko -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/knockout.js' %}"></script>
+    <script src="{% static 'servicerequest/js/client_list_servicerequest.js' %}"></script>
+
+    {% endblock %}
