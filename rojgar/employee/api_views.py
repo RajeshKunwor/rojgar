@@ -56,10 +56,10 @@ class CreateEmployeeBioView(APIView):
 
     def post(self, request):
         data = request.data
-        serializer = EmployeeBioSerializer(data=data, many=True)
+        serializer = EmployeeBioSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
-            return Response({"Response":"Successfully Saved."})
+            return Response({"response":"Successfully Saved."})
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -101,5 +101,15 @@ class GetEmployeeServiceView(APIView):
         data = []
         for es in emp_service:
             data.append({'service_name':es.job.name})
+
+        return Response(data)
+
+
+class GetEmployeeBioView(APIView):
+
+    def get(self, request):
+        emp_id = request.GET['emp_id']
+        emp_bio = EmployeeBio.objects.get(employee_id=emp_id)
+        data = {'id': emp_bio.id, 'education': emp_bio.education, 'experience': emp_bio.experience, 'other': emp_bio.others}
 
         return Response(data)

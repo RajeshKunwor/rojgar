@@ -1,16 +1,40 @@
 {% extends 'employee/employee_dashboard.html' %}
+{% load static %}
 {% block employee %}
+<input type="hidden"  id="empId" value="{{ user.user_emp.id }}">
+<!-- ko ifnot: education() -->
 <div>
-    <button type="button" class="btn btn-primary m-2">
-    Add Bio
-  </button>
+    <a class="btn btn-success m-2" href="{% url 'employee:add_bio' %}">
+        Add Bio
+    </a>
 
 </div>
+<!-- /ko -->
+<!-- ko if: education() -->
+<div>
+    <a class="btn btn-success m-2" href="#">
+        Update Bio
+    </a>
+
+</div>
+<!-- /ko -->
 
 <div class="container">
-    <p>Education</p>
-    <p>Experience</p>
-    <p>Others</p>
-</div>
+    <div class="row border">
+        <div class="col-md-3">
+            <p><b>Education: </b></p>
+            <p><b>Experience: </b></p>
+            <p><b>Others: </b></p>
+        </div>
+        <div class="col-md-6">
+            <p><i data-bind="text: education"></i></p>
+            <p><i data-bind="text: experience"></i></p>
+            <p><i data-bind="text: other"></i></p>
+        </div>
+    </div>
 
+</div>
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'employee/js/employee_bio.js' %}"></script>
 {% endblock %}

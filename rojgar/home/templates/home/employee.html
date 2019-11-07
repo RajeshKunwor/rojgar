@@ -3,6 +3,14 @@
 <title>{% block title %}{{block.super}} :: Employee{% endblock %}</title>
 {% block content %}
 <link rel="stylesheet" href="{% static 'home/css/service.css' %}"/>
+
+<!-- ko if: employeeService().length<1 -->
+<div data-bind="" class="jumbotron mt-2">
+  <div class="container">
+    <h4>Sorry, Employees are not found !</h4>
+  </div>
+</div>
+<!-- /ko -->
 <div class="container">
     <div class="row">
         <!-- ko foreach: employeeService -->

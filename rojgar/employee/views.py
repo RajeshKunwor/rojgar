@@ -77,3 +77,9 @@ class AddServiceView(View):
 
     def get(self, request):
         return render(request, 'employee/add_service.html')
+
+
+class AddBioView(View):
+
+    def get(self, request):
+        return render(request, 'employee/add_bio.html')

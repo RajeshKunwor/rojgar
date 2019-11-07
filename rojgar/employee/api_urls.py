@@ -11,4 +11,5 @@ urlpatterns = [
     path('update_employee_bio', UpdateEmployeeBioView.as_view(), name='update_employee_bio'),
     path('list_employee_bio', ListEmployeeJobView.as_view(), name='list_employee_bio'),
     path('get_employee_service', GetEmployeeServiceView.as_view(), name='get_employee_service'),
+    path('get_employee_bio', GetEmployeeBioView.as_view(), name='get_employee_bio'),
 ]

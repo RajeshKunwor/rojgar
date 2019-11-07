@@ -49,7 +49,7 @@ class EmployeeBio(models.Model):
     education = models.TextField()
     experience = models.TextField()
     others = models.TextField()
-    file = models.FileField(upload_to='employee_bio', blank=True, null=True)
+
 
     def __str__(self):
         return f'{self.employee}|{self.education}'
