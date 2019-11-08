@@ -8,7 +8,7 @@
   overflow: auto;
 }
 
-.sidebar a {
+.sidebar a.nav {
   display: block;
   color: black;
   padding: 16px;
@@ -34,7 +34,7 @@ div.content {
 
 .image {
     width: 200px;
-    height: 150px;
+    height:180px;
     padding: 5px;
     text-align: center;
     font-size: 14px;

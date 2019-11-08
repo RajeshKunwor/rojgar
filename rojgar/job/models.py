@@ -16,7 +16,7 @@ class Job(models.Model):
     name = models.CharField(max_length=100)
     category = models.ForeignKey(Category,on_delete=models.CASCADE, related_name='job_category')
     description = models.TextField()
-    image = models.FileField(upload_to='job_photo', null=True, blank=True)
+    image = models.FileField(upload_to='media', null=True, blank=True)
 
     def __str__(self):
         return f'{self.category}|{self.name}'

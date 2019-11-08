@@ -3,11 +3,15 @@ from django.views import View
 from django.contrib.auth.models import Group, User
 from django.contrib.auth import login, authenticate
 from .models import *
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 import json
+from home.decorators import group_required
 from rest_framework.views import APIView
 # Create your views here.
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class EmployeeDashboardView(View):
     def get(self, request):
         return render(request, 'employee/employee_dashboard.html')
@@ -49,37 +53,57 @@ class RegisterEmployeeView(View):
         return redirect('home:home')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class EmployeeServiceView(View):
 
     def get(self, request):
         return render(request,'employee/employee_service.html')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class EmployeeBioView(View):
 
     def get(self, request):
         return render(request, 'employee/employee_bio.html')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class EmployeeDetailView(View):
 
     def get(self, request):
         return render(request, 'employee/employee_detail.html')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class EmployeeUpdateView(View):
 
     def get(self, request):
         return render(request, 'employee/update_employee.html')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class AddServiceView(View):
 
     def get(self, request):
         return render(request, 'employee/add_service.html')
 
 
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
 class AddBioView(View):
 
     def get(self, request):
         return render(request, 'employee/add_bio.html')
+
+
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
+class UpdateProfile(View):
+
+    def get(self, request):
+        return render(request, 'employee/update_profile.html')
+
+
+@method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')
+class AddProfile(View):
+
+    def get(self, request):
+        return render(request, 'employee/add_profile.html')

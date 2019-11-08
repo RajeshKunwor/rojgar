@@ -5,9 +5,15 @@ function EmployeeServiceViewModel(){
     self.mobile_no =  ko.observable();
     self.email = ko.observable();
     self.bio = ko.observable();
+
+    self.education = ko.observable();
+    self.experience = ko.observable();
+    self.other = ko.observable();
+
+    var urlParams = new URLSearchParams(window.location.search);
+    var emp_id = (urlParams.get('emp_id'));
     self.loadEmployee = function(){
-         var urlParams = new URLSearchParams(window.location.search);
-         var emp_id = (urlParams.get('emp_id'));
+
         $.get("http://127.0.0.1:4000/api/home/employee_detail", {'emp_id': emp_id}, function(data){
             console.log(data)
             self.name(data.name)
@@ -19,7 +25,11 @@ function EmployeeServiceViewModel(){
     }
     self.loadEmployee();
 
-
+    $.get("http://127.0.0.1:4000/api/employee/get_employee_bio",{emp_id: emp_id }, function(data){
+        self.education(data.education);
+        self.experience(data.experience);
+        self.other(data.other);
+    });
     self.userName = ko.observable();
     self.password = ko.observable();
 

@@ -2,10 +2,11 @@ from .models import Category, Job
 
 class JobClass(object):
 
-    def __init__(self, id, category, name):
+    def __init__(self, id, category, name, image):
         self.id = id
         self.category = category
         self.name = name
+        self.image = image
     def __repr__(self):
         return self.name
 
@@ -27,7 +28,7 @@ def recurse(cate):
     job = Job.objects.filter(category_id=cate.id)
 
     for j in job:
-        jb = JobClass(j.id, j.category_id, j.name)
+        jb = JobClass(j.id, j.category_id, j.name, j.image)
         category.job_list.append(jb)
 
     for child in child_cate:

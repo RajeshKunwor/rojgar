@@ -3,14 +3,17 @@ from rest_framework.generics import ListAPIView
 from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework import status
-from rojgar.user.models import *
-from rojgar.user.serializers import *
+from user.models import *
+from ..serializers import *
+import json
+from rest_framework.parsers import FileUploadParser,MultiPartParser,JSONParser,FormParser
 
 class CreateUserAPIView(APIView):
 
     def post(self, request):
         data = request.data
-        serializer = User(data = data)
+        print(data)
+        serializer = UserSerializer(data = data)
         if serializer.is_valid():
             serializer.save()
             return Response({"response": "Successfully Saved."})
@@ -19,9 +22,11 @@ class CreateUserAPIView(APIView):
 
 class CreateUserProfileAPIView(APIView):
 
+    parser_classes = (MultiPartParser, FormParser)
     def post(self, request):
         data = request.data
-        serializer = UserProfile(data=data)
+        print(data)
+        serializer = UserProfileSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
             return Response({"response": "Successfully Saved."})
@@ -40,12 +45,22 @@ class ListUserProfileAPIView(ListAPIView):
     queryset = UserProfile.objects.all()
 
 
+class GetUserProfileAPIView(APIView):
+
+    def get(self, request):
+        user_id = request.GET['user_id']
+        user_profile = UserProfile.objects.get(user_id=user_id)
+        data = {'image': user_profile.photo.url }
+        return Response(data)
+
+
 class UpdateUserProfileAPIView(APIView):
 
+    parser_classes = (MultiPartParser, FormParser)
     def put(self, request):
         data = request.data
-        id = request['id']
-        user_profile = UserProfile.objects.get(id=id)
+        id = request['user_id']
+        user_profile = UserProfile.objects.get(user_id=id)
         serializer = UserProfileSerializer(instance=user_profile, data=data)
         if serializer.is_valid():
             serializer.save()

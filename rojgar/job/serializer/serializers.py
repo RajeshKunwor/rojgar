@@ -45,6 +45,7 @@ class JobSerialzers(serializers.Serializer):
     id = serializers.IntegerField()
     category = serializers.IntegerField()
     name = serializers.CharField(max_length=100)
+    image = serializers.FileField()
 
 
 class CategorySerializers(serializers.Serializer):

@@ -8,6 +8,7 @@ from job.category_tree import *
 from job.serializer.serializers import *
 from job.models import *
 from employee.models import *
+from user.models import UserProfile
 
 
 class ListServiceAPIViews(APIView):
@@ -25,7 +26,12 @@ class ListEmployeeServiceVeiw(APIView):
         emp_service = EmployeeJob.objects.filter(job_id=job_id)
         data = []
         for e_s in emp_service:
+            user_id = e_s.employee.user.id
+            profile = UserProfile.objects.get(user_id=user_id)
+            emp_photo = profile.photo.url
+
             data.append({'emp_id': e_s.employee.id,'emp_name': e_s.employee.full_name, 'emp_mobile_number': e_s.employee.mobile_number,
+                         'emp_photo': emp_photo
                          })
         return Response(data)
 
@@ -55,8 +61,11 @@ class SearchEmployeeView(APIView):
         emp = Employee.objects.filter(district_id=district_id).filter(id__in=emp_id)
         data = []
         for e in emp:
+            user_id = e.user.id
+            profile = UserProfile.objects.get(user_id=user_id)
+            emp_photo = profile.photo.url
             data.append({'emp_id': e.id, 'emp_name': e.full_name,
-                         'emp_mobile_number': e.mobile_number})
+                         'emp_mobile_number': e.mobile_number, 'emp_photo': emp_photo})
 
 
         return Response(data)

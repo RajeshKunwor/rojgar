@@ -15,12 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf import settings
+from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('dashboard/job/', include(('job.urls','job'), namespace='job')),
     path('api/job/', include(('job.api_urls', 'job'), namespace='job_api')),
     path('dashboard/', include(('dashboard.urls', 'dashboard'), namespace='dashboard')),
     path('user/', include(('user.urls', 'user'), namespace='user')),
+    path('api/user/', include(('user.api_urls', 'user'), namespace='user_api')),
     path('', include(('home.urls', 'home'), namespace='home')),
     path('api/home/', include(('home.api_urls', 'home'), namespace='home_api')),
     path('employee/', include(('employee.urls', 'employee'), namespace='employee')),
@@ -31,3 +34,5 @@ urlpatterns = [
     path('api/servicerequest/', include(('servicerequest.api_urls','servicerequest'), namespace='servicerequest_api')),
 
 ]
+if settings.DEBUG:
+  urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

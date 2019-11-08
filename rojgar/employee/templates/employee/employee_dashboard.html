@@ -2,18 +2,22 @@
 {% load static %}
 {% block content %}
 <link rel="stylesheet" href="{% static 'employee/css/employee_dashboard.css' %}"/>
+<input type="hidden" id="userId" value="{{ user.id }}">
 <div class="container-fluid">
     <div class="sidebar">
   <div class="image">
-      <img src="{% static 'employee/image/employee_icon.jpg ' %}" width="80px" height="80px" class="mx-auto d-block">
+      <img src="{{ user.user_photo.photo.url }}" width="80px" height="80px" class="mx-auto d-block">
+      <!--&lt;!&ndash; ko ifnot: photo() &ndash;&gt;-->
+            <!--<a href="{% url 'employee:add_profile' %}">Add Profile</a>-->
+      <!--&lt;!&ndash; /ko &ndash;&gt;-->
+      <a href="{% url 'employee:update_profile' %}">Update Profile</a>
       <b><p class="pt-2">{{ user.username }}</p></b>
       <p>Employee</p>
   </div>
-  <a class="active" href="{% url 'employee:employee_detail' %}">Detail</a>
-  <a href="{% url 'employee:employee_service' %}">Service</a>
-  <a href="{% url 'employee:employee_bio' %}">Bio Data</a>
-  <a href="{% url 'servicerequest:employee_list_service_request' %}">Request <span class="badge badge-info">New</span></a>
-  <a href="#">History</a>
+  <a class="nav active" href="{% url 'employee:employee_detail' %}">Detail</a>
+  <a class="nav" href="{% url 'employee:employee_service' %}">Service</a>
+  <a class="nav" href="{% url 'employee:employee_bio' %}">Bio Data</a>
+  <a class="nav" href="{% url 'servicerequest:employee_list_service_request' %}">Request <span class="badge badge-info">New</span></a>
 </div>
 
 <div class="content">
@@ -23,5 +27,8 @@ Employee
 </div>
 </div>
 
+<!--<script src="{% static 'js/jquery.js' %}"></script>-->
+<!--<script src="{% static 'js/knockout.js' %}"></script>-->
+<!--<script src="{% static 'employee/js/employee.js' %}"></script>-->
 
 {% endblock %}

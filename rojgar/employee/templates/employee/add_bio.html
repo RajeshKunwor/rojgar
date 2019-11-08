@@ -7,7 +7,10 @@
 
             <!-- Modal Header -->
             <div class="modal-header">
+                <!-- ko ifnot: education() -->
                 <h4 class="modal-title">Add Bio</h4>
+                <!-- /ko -->
+                <h4 class="modal-title">Update Bio</h4>
             </div>
 
             <!-- Modal body -->
@@ -30,6 +33,9 @@
             <input type="hidden" id="empID" value="{{ user.user_emp.id }}"/>
             <!-- Modal footer -->
             <div class="modal-footer">
+                <!-- ko ifnot: education() -->
+                <button class="btn btn-success" data-bind="click: save">Save</button>
+                <!-- /ko -->
                 <button class="btn btn-success" data-bind="click: save">Save</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>

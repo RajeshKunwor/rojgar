@@ -14,9 +14,26 @@
             <p><b>Address:</b> <i data-bind="text: address"></i></p>
             <p><b>Mobile Number:</b> <i data-bind="text: mobile_no"></i></p>
             <p><b>Email:</b> <i data-bind="text: email"></i></p>
-            <p>BioData</p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md">
+            <h5 class="bg-info text-white p-2">Employee Bio</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <p><b>Education:</b></p>
+            <p><b>Experience: </b></p>
+            <p><b>Other's Skill:</b></p>
+        </div>
+        <div class="col-md-6">
+            <p><i data-bind="text: education"></i></p>
+            <p><i data-bind="text: experience"></i></p>
+            <p><i data-bind="text: other"></i></p>
+        </div>
+    </div>
+
 </div>
 
 <script src="{% static 'js/jquery.js' %}"></script>

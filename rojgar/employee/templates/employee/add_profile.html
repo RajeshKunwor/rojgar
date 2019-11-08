@@ -1,0 +1,38 @@
+{% extends 'employee/employee_dashboard.html' %}
+{%load static %}
+{% block employee %}
+<div>
+    <div class="col-md-6 m-2">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+
+                <h4 class="modal-title">Add Profile</h4>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form id="update-profile-form">
+                    <input type="hidden"  id="user" value="{{ user.id }}">
+                    <div class="form-group">
+                        <label>Profile</label>
+                        <input  id="image" type="file"  class="form-control" >
+                    </div>
+                </form>
+            </div>
+            <input type="hidden" id="empID" value="{{ user.user_emp.id }}"/>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+
+                <button class="btn btn-success" data-bind="click: save">Save</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/knockout.js' %}"></script>
+<script src="{% static 'employee/js/update_profile.js' %}"></script>
+{% endblock %}

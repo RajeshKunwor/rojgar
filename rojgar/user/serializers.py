@@ -4,7 +4,7 @@ from .models import *
 class UserProfileSerializer(serializers.ModelSerializer):
 
     class Meta:
-        exclude ='id'
+        model = UserProfile
         fields = '__all__'
 
 

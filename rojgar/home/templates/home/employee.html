@@ -15,7 +15,7 @@
     <div class="row">
         <!-- ko foreach: employeeService -->
         <div class="col-md-2 bg-light rojgar-service">
-            <img class=" mx-auto d-block job-img" width="100px" height="100px" src=""/>
+            <img class=" mx-auto d-block job-img" width="100px" height="100px" data-bind="attr: { src: emp_photo } "/>
             <p data-bind="text: emp_name"></p>
             <p data-bind="text: emp_mobile_number"></p>
             <a class="btn btn-info" data-bind="click: $root.loadEmployeeDetail" href="#">Detail</a>

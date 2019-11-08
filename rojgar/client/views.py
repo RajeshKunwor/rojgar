@@ -5,8 +5,13 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from .models import *
 import json
+from home.decorators import group_required
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+
+@method_decorator([login_required(login_url='home:home'), group_required('client')],name='dispatch')
 class ClientDashboardView(View):
 
     def get(self, request):
