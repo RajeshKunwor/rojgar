@@ -77,7 +77,7 @@ function ViewModel(){
                 type: "post",
                 contentType: "application/json; charset=utf-8",
                 dataType: 'json',
-                success: function(response){alert(response.response);}
+                success: function(response){window.open(response.response,'_self');}
 
             });
 

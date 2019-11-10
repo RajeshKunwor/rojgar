@@ -36,21 +36,23 @@ class RegisterEmployeeView(View):
         municipality = emp_data.get('municipality')
         ward_number = emp_data.get('wardNumber')
         street = emp_data.get('street')
-        user = User.objects.create_user(username=user_name,password=password1)
-        employee = Employee(full_name=full_name, mobile_number=mobile_number,
-                            email=email, state_id=state, district_id=district, municipality_id=municipality,
-                            ward_number=ward_number, street=street)
-        employee.user = user
-        group = Group.objects.get(name='employee')
-        group.user_set.add(user)
-        group.save()
-        employee.save()
+        if full_name != None:
 
-        authenticated_user = authenticate(username=user_name, password=password1)
-        login(request, authenticated_user)
-        if next:
-            return render(request, 'employee/employee_dashboard.html')
-        return redirect('home:home')
+            user = User.objects.create_user(username=user_name,password=password1)
+            employee = Employee(full_name=full_name, mobile_number=mobile_number,
+                                email=email, state_id=state, district_id=district, municipality_id=municipality,
+                                ward_number=ward_number, street=street)
+            employee.user = user
+            group = Group.objects.get(name='employee')
+            group.user_set.add(user)
+            group.save()
+            employee.save()
+
+            authenticated_user = authenticate(username=user_name, password=password1)
+            login(request, authenticated_user)
+            if next:
+                return JsonResponse({"response": "http://127.0.0.1:4000/employee/employee_dashboard"})
+            return redirect('home:home')
 
 
 @method_decorator([login_required(login_url='home:home'), group_required('employee')],name='dispatch')

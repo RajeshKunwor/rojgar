@@ -17,6 +17,7 @@
                           data-d-url="{% url 'address:load_district' %}"
                           data-m-url="{% url 'address:load_municipality' %}"
                           data-post-url="{% url 'client:register_client' %}"
+                          data-bind="submit: save"
                     >
 
                         <div class="form-group">
@@ -163,7 +164,7 @@
                             <!--</div>-->
                         <!--</div>-->
                         <br>
-                        <button data-bind="click: save" style="background-color:#435df8;"
+                        <button type="submit" style="background-color:#435df8;"
                                 class="btn btn-md button primary-bg btn-block">Register
                         </button>
                         <button type="button" style="background-color:#dc3545;"

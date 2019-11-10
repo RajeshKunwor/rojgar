@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
 from django.views import View
+from django.http import JsonResponse
 from django.contrib.auth.models import Group, User
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
@@ -37,20 +38,22 @@ class RegisterClientView(View):
         municipality = emp_data.get('municipality')
         ward_number = emp_data.get('wardNumber')
         street = emp_data.get('street')
-        user = User.objects.create_user(username=user_name,password=password1)
-        client = Client(full_name=full_name,mobile_number=mobile_number,email=email,
-                            state_id=state,district_id=district,municipality_id=municipality, ward_number=ward_number,street=street)
-        client.user = user
-        group = Group.objects.get(name='client')
-        group.user_set.add(user)
-        group.save()
-        client.save()
+        if full_name != None:
 
-        authenticated_user = authenticate(username=user_name, password=password1)
-        login(request, authenticated_user)
-        if next:
-            return render(request, 'client/client_dashboard.html')
-        return redirect('home:home')
+            user = User.objects.create_user(username=user_name,password=password1)
+            client = Client(full_name=full_name,mobile_number=mobile_number,email=email,
+                                state_id=state,district_id=district,municipality_id=municipality, ward_number=ward_number,street=street)
+            client.user = user
+            group = Group.objects.get(name='client')
+            group.user_set.add(user)
+            group.save()
+            client.save()
+
+            authenticated_user = authenticate(username=user_name, password=password1)
+            login(request, authenticated_user)
+            if next:
+                return JsonResponse({"response": 'http://127.0.0.1:4000/client/client_dashboard'})
+            return redirect('home:home')
 
 
 

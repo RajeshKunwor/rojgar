@@ -14,6 +14,7 @@ function LoginViewModel(){
             contentType: "application/json; charset=utf-8",
             dataType: 'json',
             success: function(response){window.open(response.response,'_self');}
+            error: function(response){alert(response.response);}
         }
         );
     }

@@ -10,7 +10,13 @@
       <!--&lt;!&ndash; ko ifnot: photo() &ndash;&gt;-->
             <!--<a href="{% url 'employee:add_profile' %}">Add Profile</a>-->
       <!--&lt;!&ndash; /ko &ndash;&gt;-->
-      <a href="{% url 'employee:update_profile' %}">Update Profile</a>
+      {% if user.user_photo.photo %}
+      <br>
+      <a  href="{% url 'employee:update_profile' %}">Update Profile</a>
+      {% else %}
+      <br>
+       <a href="{% url 'employee:add_profile' %}">Add Profile</a>
+      {% endif %}
       <b><p class="pt-2">{{ user.username }}</p></b>
       <p>Employee</p>
   </div>

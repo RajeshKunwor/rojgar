@@ -7,9 +7,9 @@ from job.models import Job
 class Employee(models.Model):
     user = models.OneToOneField(User,related_name='user_emp', on_delete=models.CASCADE)
     full_name = models.CharField(max_length=100)
-    state = models.OneToOneField(State, related_name='employee_state', on_delete=models.CASCADE)
-    district = models.OneToOneField(District, related_name='employee_district', on_delete=models.CASCADE)
-    municipality = models.OneToOneField(Municipality, related_name='employee_municipality', on_delete=models.CASCADE)
+    state = models.ForeignKey(State, related_name='employee_state', on_delete=models.CASCADE)
+    district = models.ForeignKey(District, related_name='employee_district', on_delete=models.CASCADE)
+    municipality = models.ForeignKey(Municipality, related_name='employee_municipality', on_delete=models.CASCADE)
     ward_number = models.IntegerField()
     street = models.CharField(max_length=100)
     mobile_number = models.CharField(max_length=15)
